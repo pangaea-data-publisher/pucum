@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
 
-@JsonInclude(JsonInclude.Include.NON_NULL)
+//@JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class PanQuantity {
 
@@ -19,7 +19,7 @@ public class PanQuantity {
 	private String verbosecanonicalunit = null;
 	private String dimension = null;
 	private List<String> quantities = null;
-	private List<String> basequantities = null;
+	//private List<String> basequantities = null;
 
 	public String getInput() {
 		return input;
@@ -94,13 +94,13 @@ public class PanQuantity {
 		this.status_msg = status_msg;
 	}
 	
-	public List<String> getBasequantities() {
+	/*public List<String> getBasequantities() {
 		return basequantities;
 	}
 
 	public void setBasequantities(List<String> basequantities) {
 		this.basequantities = basequantities;
-	}
+	}*/
 	
 	@Override
 	public String toString() {

@@ -17,9 +17,6 @@ public abstract class IgnoreLabelMixin {
 
 	@JsonIgnore
 	public abstract List<String> getQuantities();
-	
-	@JsonIgnore
-	public abstract List<String> getBaseQuantities();
 
 	@JsonIgnore
 	public abstract String getFullname();

@@ -90,6 +90,7 @@ public class PanUcumService {
 				statusMsg = "Invalid unit has been translated into an UCUM-compliant unit.";
 			} else {
 				status = Response.Status.OK;
+				statusMsg = "The unit is UCUM-compliant.";
 			}
 		} else {
 			status = Response.Status.NOT_FOUND;
@@ -144,6 +145,7 @@ public class PanUcumService {
 				statusMsg = "Invalid unit has been translated into an UCUM-compliant unit.";
 			} else {
 				status = Response.Status.OK;
+				statusMsg = "OK";
 			}
 			
 			// describe ucum, i.e., full name, canonicalunits, quantity, dimension
@@ -158,8 +160,7 @@ public class PanUcumService {
 			} catch (UcumException e1) {
 				logger.debug("UcumService getCanonicalUnits Exception:" + e1.getMessage());
 			}
-			if(canonUnit != null)
-			{
+			if(canonUnit != null && !canonUnit.isEmpty()) {
 				pan.setCanonicalunit(canonUnit);
 				try {
 					pan.setVerbosecanonicalunit(getVerboseCanonicalUnits(ucum));
@@ -175,11 +176,15 @@ public class PanUcumService {
 					if (quantities != null) {
 						pan.setQuantities(quantities);
 					} else {
-						logger.debug("No QUANTITY found :" + ucum);
+						logger.debug("No QUANTITY is found for expression :" + ucum);
 					}
 				} else {
-					logger.debug("No DIMENSION not found :" + ucum);
+					logger.debug("No DIMENSION is found for expression :" + ucum);
 				}
+			}
+			else {
+				status = Response.Status.NOT_FOUND;
+				statusMsg = "The canonical form for the units are not found.";
 			}
 		} else {
 			status = Response.Status.NOT_FOUND;

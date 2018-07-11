@@ -42,7 +42,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.sun.tools.sjavac.Log;
+//import com.sun.tools.sjavac.Log;
 
 import de.pangaea.ucum.v1.model.Quantities;
 
@@ -64,6 +64,9 @@ public class PanUcumApp extends ResourceConfig {
 	private static Document doc = null;
 
 	public PanUcumApp() {
+		//packages("de.pangaea.ucum.v1");
+		//register(PanUcumService.class);
+
 		ClassLoader classLoader = getClass().getClassLoader();
 		// Read the configuration file
 		properties = readProperties();
