@@ -16,8 +16,11 @@ public abstract class IgnoreLabelMixin {
 	public abstract String getDimension();
 
 	@JsonIgnore
-	public abstract List<String> getQuantities();
+	public abstract List<String> getQudtQuantities();
 
+	@JsonIgnore
+	public abstract String getUcumQuantity();
+	
 	@JsonIgnore
 	public abstract String getFullname();
 }

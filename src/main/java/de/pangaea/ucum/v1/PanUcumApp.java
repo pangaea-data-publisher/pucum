@@ -15,24 +15,21 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
-import java.util.Scanner;
 import java.util.Set;
 
 import javax.ws.rs.ApplicationPath;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
 import org.apache.commons.collections4.iterators.PermutationIterator;
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.fhir.ucum.UcumEssenceService;
 import org.fhir.ucum.UcumException;
@@ -44,7 +41,6 @@ import org.xml.sax.SAXException;
 
 //import com.sun.tools.sjavac.Log;
 
-import de.pangaea.ucum.v1.model.Quantities;
 
 @ApplicationPath("/v1")
 public class PanUcumApp extends ResourceConfig {
@@ -54,11 +50,9 @@ public class PanUcumApp extends ResourceConfig {
 	private static final Logger logger = Logger.getLogger(PanUcumApp.class);
 	private static String ucumEssenceFilePath;
 	private static String quantityFilePath;
-	private static File mappingFile;
-	private static HashMap<String, String> replacement = null;
+	private static File mappingFile = null;
 	private static UcumEssenceService ucumSvc = null;
 	private static HashMap<String, String> pangUcumMapping = null;
-	private static HashMap<String, String> dimensionMapping = null;
 	private static UcumModel ucumModel = null;
 	private static XPath xpath = null;
 	private static Document doc = null;
@@ -66,7 +60,7 @@ public class PanUcumApp extends ResourceConfig {
 	public PanUcumApp() {
 		//packages("de.pangaea.ucum.v1");
 		//register(PanUcumService.class);
-
+		BasicConfigurator.configure();
 		ClassLoader classLoader = getClass().getClassLoader();
 		// Read the configuration file
 		properties = readProperties();
@@ -75,8 +69,8 @@ public class PanUcumApp extends ResourceConfig {
 		ucumEssenceFilePath = classLoader.getResource(properties.getProperty("ucum_essence_file")).getPath();
 		quantityFilePath = classLoader.getResource(properties.getProperty("quantity_file")).getPath();
 
-		String mappingFileDecoded = decodeFilePath(
-				classLoader.getResource(properties.getProperty("mapping_file")).getPath());
+		//String mappingFileDecoded = decodeFilePath(classLoader.getResource(properties.getProperty("mapping_file")).getPath());
+		String mappingFileDecoded = classLoader.getResource(properties.getProperty("mapping_file")).getPath();
 		mappingFile = new File(mappingFileDecoded);
 		// Read mapping file : unitscorr29062018.txt
 		pangUcumMapping = new HashMap<String, String>();
@@ -86,7 +80,7 @@ public class PanUcumApp extends ResourceConfig {
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 			String line;
 			while ((line = bufferedReader.readLine()) != null) {
-				String[] parts = line.split("\t");
+				String[] parts = line.split(",");
 				if (parts.length >= 2) {
 					String key = parts[0];
 					String value = parts[1];
@@ -103,12 +97,6 @@ public class PanUcumApp extends ResourceConfig {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-
-		// Read pangaea special mappings // #:n;[#]:n;degC:Cel
-		String specialMapping = properties.getProperty("replacement");
-		if (specialMapping != null) {
-			replacement = parseMapping(specialMapping);
 		}
 
 		/*
@@ -134,12 +122,6 @@ public class PanUcumApp extends ResourceConfig {
 			logger.debug("SAXException: " + e2.getMessage());
 		} catch (IOException e3) {
 			logger.debug("IOException: " + e3.getMessage());
-		}
-
-		// Read dimension mappings, e.g., mol:N;s:T;....
-		String dimMapping = properties.getProperty("dimension");
-		if (dimMapping != null) {
-			dimensionMapping = parseMapping(dimMapping);
 		}
 
 	}
@@ -227,22 +209,6 @@ public class PanUcumApp extends ResourceConfig {
 		pangUcumMapping = mapping;
 	}
 
-	public static HashMap<String, String> getReplacement() {
-		return replacement;
-	}
-
-	public static void setReplacement(HashMap<String, String> specialMapping) {
-		PanUcumApp.replacement = specialMapping;
-	}
-
-	public static HashMap<String, String> getDimensionMapping() {
-		return dimensionMapping;
-	}
-
-	public static void setDimensionMapping(HashMap<String, String> dimensionMapping) {
-		PanUcumApp.dimensionMapping = dimensionMapping;
-	}
-
 	public static org.fhir.ucum.UcumModel getUcumModel() {
 		return ucumModel;
 	}
@@ -250,4 +216,5 @@ public class PanUcumApp extends ResourceConfig {
 	public static void setUcumModel(org.fhir.ucum.UcumModel ucumModel) {
 		PanUcumApp.ucumModel = ucumModel;
 	}
+
 }

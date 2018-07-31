@@ -16,10 +16,10 @@ public class PanQuantity {
 	private String ucum = null;
 	private String fullname = null;
 	private String canonicalunit = null;
-	private String verbosecanonicalunit = null;
+	private String verbose_canonicalunit = null;
 	private String dimension = null;
-	private List<String> quantities = null;
-	//private List<String> basequantities = null;
+	private List<String> qudt_quantity = null;
+	private String ucum_quantity = null;
 
 	public String getInput() {
 		return input;
@@ -55,11 +55,11 @@ public class PanQuantity {
 	}
 
 	public String getVerbosecanonicalunit() {
-		return verbosecanonicalunit;
+		return verbose_canonicalunit;
 	}
 
 	public void setVerbosecanonicalunit(String verbosecanonicalunit) {
-		this.verbosecanonicalunit = verbosecanonicalunit;
+		this.verbose_canonicalunit = verbosecanonicalunit;
 	}
 
 	public String getDimension() {
@@ -68,14 +68,6 @@ public class PanQuantity {
 
 	public void setDimension(String dimension) {
 		this.dimension = dimension;
-	}
-
-	public List<String> getQuantities() {
-		return quantities;
-	}
-
-	public void setQuantities(List<String> quantities) {
-		this.quantities = quantities;
 	}
 	
 	public String getFullname() {
@@ -94,13 +86,22 @@ public class PanQuantity {
 		this.status_msg = status_msg;
 	}
 	
-	/*public List<String> getBasequantities() {
-		return basequantities;
+	public List<String> getQudtQuantities() {
+		return qudt_quantity;
 	}
 
-	public void setBasequantities(List<String> basequantities) {
-		this.basequantities = basequantities;
-	}*/
+	public void setQudtQuantities(List<String> qudt_quantities) {
+		this.qudt_quantity = qudt_quantities;
+	}
+
+	public String getUcumQuantity() {
+		return ucum_quantity;
+	}
+
+	public void setUcumQuantity(String ucum_quantity) {
+		this.ucum_quantity = ucum_quantity;
+	}
+
 	
 	@Override
 	public String toString() {
