@@ -32,7 +32,8 @@ import de.pangaea.ucum.v1.model.PanQuantity;
 public class PanUcumService {
 	private static final Logger logger = Logger.getLogger(PanUcumService.class);
 	private static UcumEssenceService ucumInst = PanUcumApp.getUcumSvc();
-	//private HashMap<String, String> pangUcumMappings = PanUcumApp.getPangUcumMapping();
+	// private HashMap<String, String> pangUcumMappings =
+	// PanUcumApp.getPangUcumMapping();
 	private UcumModel model = PanUcumApp.getUcumModel();
 	private Registry handlers = new Registry();
 	private static RegularExParser regularParser = new RegularExParser();
@@ -55,29 +56,26 @@ public class PanUcumService {
 		String statusMsg = null;
 		String ucum = null;
 		boolean bad_request = false;
-		Term term = null;
+		// Term term = null;
 
 		ObjectMapper objectMapper = new ObjectMapper();
 		objectMapper.addMixIn(PanQuantity.class, IgnoreLabelMixin.class);
 		PanQuantity pan = new PanQuantity();
 		pan.setInput(u);
 
-		try {
-			term = new ExpressionParser(model).parse(u);
-		} catch (Exception e) {
-			logger.debug("Unit parsing exception: " + e.getMessage());
-			statusMsg = e.getMessage();
-		}
+		String validation = ucumInst.validate(u);
 
-		// valid uom
-		if (term != null) {
+		if (validation == null) { // valid ucum
 			ucum = u;
 		} else {
-			// invalid uom therefore try to find the ucum-compliant units from pangaea
-			// mappings
-			//ucum = pangUcumMappings.get(u);
-			ucum = regularParser.runRegExpression(u);
-			bad_request = true;
+			String unitFormatted = regularParser.runRegExpression(u);
+			String secondValidation = ucumInst.validate(unitFormatted);
+			if (secondValidation == null) {
+				ucum = unitFormatted;
+				bad_request = true;
+			} else {
+				statusMsg = validation;
+			}
 		}
 
 		String json = null;
@@ -124,32 +122,27 @@ public class PanUcumService {
 		PanQuantity pan = new PanQuantity();
 		pan.setInput(u);
 
-		try {
-			term = new ExpressionParser(model).parse(u);
-		} catch (Exception e) {
-			logger.debug("Unit parsing exception: " + e.getMessage());
-			statusMsg = e.getMessage();
-		}
-
-		// valid uom
-		if (term != null) {
+		String validation = ucumInst.validate(u);
+		if (validation == null) { // valid ucum
 			ucum = u;
 		} else {
-			//ucum = pangUcumMappings.get(u);
-			ucum = regularParser.runRegExpression(u);
-			if (ucum != null) {
-				try {
-					term = new ExpressionParser(model).parse(ucum);
-				} catch (UcumException e) {
-					logger.debug("Unit parsing exception: " + e.getMessage());
-					statusMsg = "Formatted units: "+ ucum+ ". "+e.getMessage();
-				}
+			String unitFormatted = regularParser.runRegExpression(u);
+			String secondValidation = ucumInst.validate(unitFormatted);
+			if (secondValidation == null) {
+				ucum = unitFormatted;
+			} else {
+				statusMsg = validation;
 			}
 		}
 
-		if (ucum != null && term !=null) {
+		if (ucum != null) {
 			pan.setUcum(ucum);
 			status = Response.Status.OK;
+			try {
+				term = new ExpressionParser(model).parse(ucum);
+			} catch (UcumException e) {
+				logger.debug("UcumService ExpressionParser exception: " + e.getMessage());
+			}
 
 			// describe ucum, i.e., full name, canonicalunits, quantity, dimension
 			try {
@@ -164,7 +157,7 @@ public class PanUcumService {
 			} catch (UcumException e1) {
 				logger.debug("UcumService getCanonicalUnits Exception:" + e1.getMessage());
 			}
-	
+
 			if (canonUnit != null && !canonUnit.isEmpty()) {
 				pan.setCanonicalunit(canonUnit);
 				try {
@@ -173,26 +166,30 @@ public class PanUcumService {
 					logger.debug("UcumService getVerboseCanonicalUnits Exception:" + e2.getMessage());
 				}
 			}
+
+			Unit isUnit = model.getUnit(ucum);
+			if (isUnit != null) {
+				ucumQuantities = model.getUnit(ucum).getProperty();
+			}
+			pan.setUcumQuantity(ucumQuantities);
+
 			String dimensions = null;
 			dimensions = getDimensions(term);
-	
 			if (dimensions != null && !dimensions.isEmpty()) {
 				pan.setDimension(dimensions);
 				qudtQuantities = PanUcumApp.getQuantitiesByDimensionUnits(dimensions);
-
-				Unit isUnit = model.getUnit(ucum);
-				if (isUnit != null) {
-					ucumQuantities = model.getUnit(ucum).getProperty();
-				}
 				pan.setQudtQuantities(qudtQuantities);
-				pan.setUcumQuantity(ucumQuantities);
-				
-				statusId = PucumError.QUANTITY_FOUND.getId();
-				statusMsg = PucumError.QUANTITY_FOUND.getMessage();
 			} else {
 				logger.debug("No DIMENSION is found for expression :" + ucum);
+			}
+
+			if (qudtQuantities == null && ucumQuantities == null) {
+
 				statusId = PucumError.QUANTITY_NOT_FOUND.getId();
 				statusMsg = PucumError.QUANTITY_NOT_FOUND.getMessage();
+			} else {
+				statusId = PucumError.QUANTITY_FOUND.getId();
+				statusMsg = PucumError.QUANTITY_FOUND.getMessage();
 			}
 		} else {
 			status = Response.Status.NOT_FOUND;
@@ -204,14 +201,12 @@ public class PanUcumService {
 		return Response.status(status).entity(pan).build();
 	}
 
-	/*private String replaceSpecialChar(String input) {
-		String output = null;
-		if (pangUcumReplacements.containsKey(input)) {
-			String val = pangUcumReplacements.get(input);
-			output = input.replace(input, val);
-		}
-		return output;
-	}*/
+	/*
+	 * private String replaceSpecialChar(String input) { String output = null; if
+	 * (pangUcumReplacements.containsKey(input)) { String val =
+	 * pangUcumReplacements.get(input); output = input.replace(input, val); } return
+	 * output; }
+	 */
 
 	public String getDimensions(Term term) {
 		String dimension = null;
