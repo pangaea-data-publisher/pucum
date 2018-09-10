@@ -74,18 +74,18 @@ public class RegularExParser {
 			// Avoids throwing a NullPointerException in the case that you
 			// Don't have a replacement defined in the map for the match
 			String repString = pangUcumMappings.get(matcher.group(1));
-			//System.out.println(matcher.group(1));
+			//System.out.println(repString+" "+matcher.group(1));
 			if (repString != null)
 				matcher.appendReplacement(sb, repString);
 		}
 		String formattedStr = matcher.appendTail(sb).toString();
-
 		String t1 = replaceWithPattern(pattern1, formattedStr, "$1$3");
 		String t2 = replaceWithPattern(pattern2, t1, "$1*$3.$5");
 		String t3 = replaceWithPattern(pattern3, t2, "$1.$3");
 		String t4 = replaceWithPattern(pattern4, t3, "$1.$3");
 		String t5 = replaceWithPattern(pattern5, t4, "$1*$3");
-		t5 = t5.replace(" ", ""); // ug {C}/l/d -> ug{C}/l/d
+		//t5 = t5.replace(" ", ""); // ug {C}/l/d -> ug{C}/l/d
+		t5 = t5.replaceAll("[ ,]" , "");
 		return t5;
 	}
 

@@ -1,5 +1,7 @@
 package de.pangaea.ucum.v1;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -51,6 +53,11 @@ public class PanUcumService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response validateUCUMUnit(@PathParam("uom") String units) {
 		String u = units.trim();
+		String udec = checkDecimalUnit(u);
+		if (udec != null) {
+			u = udec;
+		}
+		
 		StatusType status = null;
 		String statusId = null;
 		String statusMsg = null;
@@ -111,6 +118,11 @@ public class PanUcumService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getUcumDefinition(@PathParam("ucum") String units) {
 		String u = units.trim();
+		String udec = checkDecimalUnit(u);
+		if (udec != null) {
+			u = udec;
+		}
+		//System.out.println("SS:"+u);
 		Status status = null;
 		String statusId = null;
 		String statusMsg = null;
@@ -128,6 +140,7 @@ public class PanUcumService {
 		} else {
 			String unitFormatted = regularParser.runRegExpression(u);
 			String secondValidation = ucumInst.validate(unitFormatted);
+			//System.out.println("SS1:"+unitFormatted);
 			if (secondValidation == null) {
 				ucum = unitFormatted;
 			} else {
@@ -172,6 +185,7 @@ public class PanUcumService {
 				ucumQuantities = model.getUnit(ucum).getProperty();
 			}
 			pan.setUcumQuantity(ucumQuantities);
+			
 
 			String dimensions = null;
 			dimensions = getDimensions(term);
@@ -225,6 +239,29 @@ public class PanUcumService {
 		} catch (Exception e) {
 			throw new UcumException("Error processing " + unit + ": " + e.getMessage(), e);
 		}
+	}
+	
+	private String checkDecimalUnit(String decimal)
+	{
+		// convert 0.001 -> 10*-3, 100 -> 10*2
+		String n = null;
+		try
+        { 
+            // checking valid float using parseInt() method 
+	    	float f = Float.parseFloat(decimal);
+            NumberFormat formatter = new DecimalFormat();
+	 		formatter = new DecimalFormat("0.#E0");
+	 		String exp = formatter.format(f);
+	 		if(exp.startsWith("1E"))
+	 		{
+	 			n = 10+"*"+exp.substring(exp.lastIndexOf("E") + 1);
+	 		}
+        }  
+        catch (NumberFormatException e) 
+        { 
+            return null;
+        }
+		return n; 
 	}
 
 }
