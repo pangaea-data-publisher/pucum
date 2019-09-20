@@ -139,3 +139,4 @@ target/pucum-0.0.1-SNAPSHOT/WEB-INF/quantities.xsd
 target/pucum-0.0.1-SNAPSHOT/WEB-INF/ucum-essence.xml
 target/pucum-0.0.1-SNAPSHOT/WEB-INF/units-corr-20180706.txt
 target/pucum.war
+/target/

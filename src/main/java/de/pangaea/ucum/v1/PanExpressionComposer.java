@@ -16,9 +16,9 @@ public class PanExpressionComposer extends ExpressionComposer {
 				first = false;
 			else
 				b.append(".");
-			// the difference!! getDim instead of getCode
+			// getDim instead of getCode
 			b.append(c.getBase().getDim());
-			
+
 			if (c.getExponent() != 1)
 				b.append(c.getExponent());
 		}

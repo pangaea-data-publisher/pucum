@@ -1,5 +1,6 @@
 package de.pangaea.ucum.v1.model;
 
+import java.util.HashMap;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -16,11 +17,11 @@ public abstract class IgnoreLabelMixin {
 	public abstract String getDimension();
 
 	@JsonIgnore
-	public abstract List<String> getQudtQuantities();
+	public abstract HashMap<String, String> getQudt_quantity();
 
 	@JsonIgnore
-	public abstract String getUcumQuantity();
-	
+	public abstract String getUcum_quantity();
+
 	@JsonIgnore
 	public abstract String getFullname();
 }

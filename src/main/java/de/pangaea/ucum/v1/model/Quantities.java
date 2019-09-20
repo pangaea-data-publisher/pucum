@@ -5,7 +5,6 @@
 // Generated on: 2018.07.03 at 03:05:29 PM CEST 
 //
 
-
 package de.pangaea.ucum.v1.model;
 
 import java.util.ArrayList;
@@ -17,11 +16,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Java class for anonymous complex type.
+ * <p>
+ * Java class for anonymous complex type.
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
  * 
  * <pre>
  * &lt;complexType&gt;
@@ -51,180 +52,161 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "quantity"
-})
+@XmlType(name = "", propOrder = { "quantity" })
 @XmlRootElement(name = "quantities")
 public class Quantities {
 
-    @XmlElement(required = true)
-    protected List<Quantities.Quantity> quantity;
+	@XmlElement(required = true)
+	protected List<Quantities.Quantity> quantity;
 
-    /**
-     * Gets the value of the quantity property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the quantity property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getQuantity().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link Quantities.Quantity }
-     * 
-     * 
-     */
-    public List<Quantities.Quantity> getQuantity() {
-        if (quantity == null) {
-            quantity = new ArrayList<Quantities.Quantity>();
-        }
-        return this.quantity;
-    }
+	/**
+	 * Gets the value of the quantity property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a snapshot.
+	 * Therefore any modification you make to the returned list will be present
+	 * inside the JAXB object. This is why there is not a <CODE>set</CODE> method
+	 * for the quantity property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getQuantity().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list
+	 * {@link Quantities.Quantity }
+	 * 
+	 * 
+	 */
+	public List<Quantities.Quantity> getQuantity() {
+		if (quantity == null) {
+			quantity = new ArrayList<Quantities.Quantity>();
+		}
+		return this.quantity;
+	}
 
+	/**
+	 * <p>
+	 * Java class for anonymous complex type.
+	 * 
+	 * <p>
+	 * The following schema fragment specifies the expected content contained within
+	 * this class.
+	 * 
+	 * <pre>
+	 * &lt;complexType&gt;
+	 *   &lt;complexContent&gt;
+	 *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
+	 *       &lt;sequence&gt;
+	 *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+	 *         &lt;element name="unit" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+	 *         &lt;element name="dimension" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+	 *       &lt;/sequence&gt;
+	 *       &lt;attribute name="source" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
+	 *     &lt;/restriction&gt;
+	 *   &lt;/complexContent&gt;
+	 * &lt;/complexType&gt;
+	 * </pre>
+	 * 
+	 * 
+	 */
+	@XmlAccessorType(XmlAccessType.FIELD)
+	@XmlType(name = "", propOrder = { "name", "unit", "dimension" })
+	public static class Quantity {
 
-    /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
-     * <pre>
-     * &lt;complexType&gt;
-     *   &lt;complexContent&gt;
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
-     *       &lt;sequence&gt;
-     *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="unit" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="dimension" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *       &lt;/sequence&gt;
-     *       &lt;attribute name="source" type="{http://www.w3.org/2001/XMLSchema}string" /&gt;
-     *     &lt;/restriction&gt;
-     *   &lt;/complexContent&gt;
-     * &lt;/complexType&gt;
-     * </pre>
-     * 
-     * 
-     */
-    @XmlAccessorType(XmlAccessType.FIELD)
-    @XmlType(name = "", propOrder = {
-        "name",
-        "unit",
-        "dimension"
-    })
-    public static class Quantity {
+		@XmlElement(required = true)
+		protected String name;
+		@XmlElement(required = true)
+		protected String unit;
+		@XmlElement(required = true)
+		protected String dimension;
+		@XmlAttribute(name = "source")
+		protected String source;
 
-        @XmlElement(required = true)
-        protected String name;
-        @XmlElement(required = true)
-        protected String unit;
-        @XmlElement(required = true)
-        protected String dimension;
-        @XmlAttribute(name = "source")
-        protected String source;
+		/**
+		 * Gets the value of the name property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getName() {
+			return name;
+		}
 
-        /**
-         * Gets the value of the name property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getName() {
-            return name;
-        }
+		/**
+		 * Sets the value of the name property.
+		 * 
+		 * @param value allowed object is {@link String }
+		 * 
+		 */
+		public void setName(String value) {
+			this.name = value;
+		}
 
-        /**
-         * Sets the value of the name property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setName(String value) {
-            this.name = value;
-        }
+		/**
+		 * Gets the value of the unit property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getUnit() {
+			return unit;
+		}
 
-        /**
-         * Gets the value of the unit property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getUnit() {
-            return unit;
-        }
+		/**
+		 * Sets the value of the unit property.
+		 * 
+		 * @param value allowed object is {@link String }
+		 * 
+		 */
+		public void setUnit(String value) {
+			this.unit = value;
+		}
 
-        /**
-         * Sets the value of the unit property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setUnit(String value) {
-            this.unit = value;
-        }
+		/**
+		 * Gets the value of the dimension property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getDimension() {
+			return dimension;
+		}
 
-        /**
-         * Gets the value of the dimension property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getDimension() {
-            return dimension;
-        }
+		/**
+		 * Sets the value of the dimension property.
+		 * 
+		 * @param value allowed object is {@link String }
+		 * 
+		 */
+		public void setDimension(String value) {
+			this.dimension = value;
+		}
 
-        /**
-         * Sets the value of the dimension property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setDimension(String value) {
-            this.dimension = value;
-        }
+		/**
+		 * Gets the value of the source property.
+		 * 
+		 * @return possible object is {@link String }
+		 * 
+		 */
+		public String getSource() {
+			return source;
+		}
 
-        /**
-         * Gets the value of the source property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
-         */
-        public String getSource() {
-            return source;
-        }
+		/**
+		 * Sets the value of the source property.
+		 * 
+		 * @param value allowed object is {@link String }
+		 * 
+		 */
+		public void setSource(String value) {
+			this.source = value;
+		}
 
-        /**
-         * Sets the value of the source property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
-         */
-        public void setSource(String value) {
-            this.source = value;
-        }
-
-    }
+	}
 
 }
