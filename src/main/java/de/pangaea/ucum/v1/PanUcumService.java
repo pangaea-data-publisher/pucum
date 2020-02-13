@@ -8,7 +8,6 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -24,10 +23,11 @@ import javax.ws.rs.core.Response.StatusType;
 
 import org.apache.commons.collections4.iterators.PermutationIterator;
 import org.apache.commons.lang.StringUtils;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.fhir.ucum.Converter;
+import org.fhir.ucum.Decimal;
 import org.fhir.ucum.ExpressionParser;
+import org.fhir.ucum.Pair;
 import org.fhir.ucum.Term;
 import org.fhir.ucum.UcumEssenceService;
 import org.fhir.ucum.UcumException;
@@ -166,8 +166,9 @@ public class PanUcumService {
 		PanQuantity pan = new PanQuantity();
 		pan.setInput(backup_of_u);
 		
-		
 		String validation = ucumInst.validate(u);
+		
+		//System.out.println(validation);
 		if (validation == null) { // valid ucum
 			ucum = u;
 		} else {
@@ -196,7 +197,10 @@ public class PanUcumService {
 			} catch (UcumException e) {
 				logger.debug("UcumService Analyse Exception:" + e.getMessage());
 			}
+		//System.out.println("A :"+ucumInst.getModel().getUnit(ucum).getProperty());//<property>
+			
 
+			
 			String canonUnit = null;
 			try {
 				canonUnit = ucumInst.getCanonicalUnits(ucum);
@@ -218,7 +222,7 @@ public class PanUcumService {
 				ucumQuantities = model.getUnit(ucum).getProperty();
 			}
 			pan.setUcum_quantity(ucumQuantities);
-
+			
 			String dimensions = null;
 			dimensions = getDimensions(term);
 
