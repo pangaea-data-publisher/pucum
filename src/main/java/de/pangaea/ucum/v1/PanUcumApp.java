@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -14,9 +13,13 @@ import java.util.HashMap;
 import java.util.Properties;
 import javax.ws.rs.ApplicationPath;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
+//import org.apache.log4j.BasicConfigurator;
+//import org.apache.log4j.Level;
+//import org.apache.log4j.Logger;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import org.fhir.ucum.UcumEssenceService;
 import org.fhir.ucum.UcumException;
 import org.fhir.ucum.UcumModel;
@@ -30,7 +33,7 @@ import com.jayway.jsonpath.ReadContext;
 public class PanUcumApp extends ResourceConfig {
 	public static final String PROPERTIES_FILE = "config.properties";
 	public static Properties properties = new Properties();
-	private static final Logger logger = Logger.getLogger(PanUcumApp.class);
+	private static final Logger logger = LogManager.getLogger(PanUcumApp.class);
 	private static String ucumEssenceFilePath;
 	private static String quantityFilePath;
 	private static File mappingFile = null;
@@ -44,12 +47,12 @@ public class PanUcumApp extends ResourceConfig {
 	 
 	public PanUcumApp() {
 		//set log config programmatically
-		Logger log_main = Logger.getLogger("de.pangaea.ucum.v1");
-		log_main.setLevel(Level.INFO);
-		Logger log = Logger.getLogger("com.jayway.jsonpath");
-		log.setLevel(Level.INFO);
+		//Logger log_main = Logger.getLogger("de.pangaea.ucum.v1");
+		//log_main.setLevel(Level.INFO);
+		//Logger log = Logger.getLogger("com.jayway.jsonpath");
+		//log.setLevel(Level.INFO);
 		
-		BasicConfigurator.configure();
+		//BasicConfigurator.configure();
 		ClassLoader classLoader = getClass().getClassLoader();
 		// Read the configuration file
 		properties = readProperties();
@@ -89,12 +92,12 @@ public class PanUcumApp extends ResourceConfig {
 			}
 			bufferedReader.close();
 
-		} catch (FileNotFoundException e) {
+		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
+			logger.error("FileNotFoundException",e1);
+		} catch (IOException e2) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			logger.error("IOException",e2);
 		}
 
 		/*

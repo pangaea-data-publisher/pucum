@@ -23,7 +23,9 @@ import javax.ws.rs.core.Response.StatusType;
 
 import org.apache.commons.collections4.iterators.PermutationIterator;
 import org.apache.commons.lang.StringUtils;
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.fhir.ucum.Converter;
 import org.fhir.ucum.Decimal;
 import org.fhir.ucum.ExpressionParser;
@@ -44,7 +46,7 @@ import de.pangaea.ucum.v1.model.PanQuantity;
 
 @Path("/api")
 public class PanUcumService {
-	private static final Logger logger = Logger.getLogger(PanUcumService.class);
+	private static final Logger logger = LogManager.getLogger(PanUcumService.class);
 	private static UcumEssenceService ucumInst = PanUcumApp.getUcumSvc();
 	// private HashMap<String, String> pangUcumMappings =
 	// PanUcumApp.getPangUcumMapping();
