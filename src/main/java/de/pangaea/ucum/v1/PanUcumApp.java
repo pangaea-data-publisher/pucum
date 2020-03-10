@@ -11,28 +11,27 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Properties;
-import javax.ws.rs.ApplicationPath;
 import org.apache.commons.io.FileUtils;
-//import org.apache.log4j.BasicConfigurator;
-//import org.apache.log4j.Level;
-//import org.apache.log4j.Logger;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 
 import org.fhir.ucum.UcumEssenceService;
 import org.fhir.ucum.UcumException;
 import org.fhir.ucum.UcumModel;
 import org.glassfish.jersey.server.ResourceConfig;
+
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
 
-//import com.sun.tools.sjavac.Log;
-
-@ApplicationPath("/v1")
+// comment out by ASD 10-03-2020, There are three main different ways (in a servlet container) to configure Jersey (JAX-RS)
+// for pucum we use With both web.xml and an Application/ResourceConfig class
+// ref https://stackoverflow.com/questions/45625925/what-exactly-is-the-resourceconfig-class-in-jersey-2
+//@ApplicationPath("/v1")
 public class PanUcumApp extends ResourceConfig {
 	public static final String PROPERTIES_FILE = "config.properties";
 	public static Properties properties = new Properties();
+	/* Get the logger for the actual class name to be printed on */
 	private static final Logger logger = LogManager.getLogger(PanUcumApp.class);
 	private static String ucumEssenceFilePath;
 	private static String quantityFilePath;
@@ -46,6 +45,9 @@ public class PanUcumApp extends ResourceConfig {
 	
 	 
 	public PanUcumApp() {
+		// instead of using the init-param that tells Jersey which package(s) to scan, 
+		// we just use the convenience method packages() of the ResourceConfig.
+		packages("de.pangaea.ucum.v1;de.pangaea.ucum.v1.model");
 		//set log config programmatically
 		//Logger log_main = Logger.getLogger("de.pangaea.ucum.v1");
 		//log_main.setLevel(Level.INFO);

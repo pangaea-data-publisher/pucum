@@ -27,9 +27,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.fhir.ucum.Converter;
-import org.fhir.ucum.Decimal;
 import org.fhir.ucum.ExpressionParser;
-import org.fhir.ucum.Pair;
 import org.fhir.ucum.Term;
 import org.fhir.ucum.UcumEssenceService;
 import org.fhir.ucum.UcumException;
@@ -39,12 +37,13 @@ import org.fhir.ucum.special.Registry;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.*;
 import com.jayway.jsonpath.ReadContext;
 
 import de.pangaea.ucum.v1.model.IgnoreLabelMixin;
 import de.pangaea.ucum.v1.model.PanQuantity;
 
-@Path("/api")
+@Path("v1/api")
 public class PanUcumService {
 	private static final Logger logger = LogManager.getLogger(PanUcumService.class);
 	private static UcumEssenceService ucumInst = PanUcumApp.getUcumSvc();
