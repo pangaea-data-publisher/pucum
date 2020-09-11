@@ -3,10 +3,10 @@ A Java-based REST API to convert unis of measurements specified in PANGAEA datas
 
 ## Usage
 ```
-The default port of the service is set to 3838. Use the following url to convert a unit into ucum format:
+The default port of the service is set to 3838. Use the following url to convert a {unit} into ucum format:
 http://localhost:3838/pucum/v1/api/quantity/{unit}
 ```
-An example of response returned by the service for the \{unit\} 'mg/ml'
+An example of response returned by the service for the unit 'mg/ml'
 ```
 {
   "input": "mg/ml",
