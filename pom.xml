@@ -21,7 +21,7 @@
 		<jersey2.version>2.25.1</jersey2.version>
 		<jaxrs.version>2.1.1</jaxrs.version>
 		<maven.test.skip>true</maven.test.skip>
-		<jettyVersion>9.4.27.v20200227</jettyVersion>
+		<jettyVersion>9.4.31.v20200723</jettyVersion>
 	</properties>
 
 
@@ -230,13 +230,6 @@
 					<version>2.8.2</version>
 				</plugin>
 
-
-				<!-- <plugin> <groupId>org.mortbay.jetty</groupId> <artifactId>jetty-maven-plugin</artifactId> 
-					<version>${mortbay.jetty.version}</version> <configuration> <scanIntervalSeconds>10</scanIntervalSeconds> 
-					<webApp> <contextPath>/pucum</contextPath> </webApp> <connectors> <connector 
-					implementation="org.eclipse.jetty.server.nio.SelectChannelConnector"> <port>3838</port> 
-					</connector> </connectors> </configuration> </plugin> -->
-
 				<plugin>
 					<groupId>org.eclipse.jetty</groupId>
 					<artifactId>jetty-maven-plugin</artifactId>
@@ -246,6 +239,7 @@
 							<contextPath>/pucum/</contextPath>
 						</webApp>
 						<httpConnector>
+              <host>127.0.0.1</host>
 							<port>3838</port>
 						</httpConnector>
 					</configuration>
