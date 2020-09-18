@@ -1,0 +1,6980 @@
+{
+	"Quantitites": 
+	[
+		{
+			"Quantity": "Absorbed Dose",
+			"DimensionFormatted": null,
+			"Ucum": "Gy",
+			"Source": "qudt",
+			"pang_term_id": "43757"
+		},
+
+		{
+			"Quantity": "Absorbed Dose",
+			"DimensionFormatted": null,
+			"Ucum": "RAD",
+			"Source": "qudt",
+			"pang_term_id": "43757"
+		},
+
+		{
+			"Quantity": "Absorbed Dose Rate",
+			"DimensionFormatted": "L2.T-3",
+			"Ucum": "Gy\/s",
+			"Source": "qudt",
+			"pang_term_id": "43758"
+		},
+
+		{
+			"Quantity": "Activity",
+			"DimensionFormatted": null,
+			"Ucum": "Bq",
+			"Source": "qudt",
+			"pang_term_id": "43761"
+		},
+
+		{
+			"Quantity": "Activity",
+			"DimensionFormatted": null,
+			"Ucum": "Ci",
+			"Source": "qudt",
+			"pang_term_id": "43761"
+		},
+
+		{
+			"Quantity": "Amount of Substance",
+			"DimensionFormatted": "N",
+			"Ucum": "mol",
+			"Source": "qudt",
+			"pang_term_id": "43762"
+		},
+
+		{
+			"Quantity": "Amount of Substance",
+			"DimensionFormatted": "N",
+			"Ucum": "[iU]}",
+			"Source": "qudt",
+			"pang_term_id": "43762"
+		},
+
+		{
+			"Quantity": "Amount of substance per unit mass",
+			"DimensionFormatted": "M-1.N",
+			"Ucum": "mol\/kg",
+			"Source": "qudt",
+			"pang_term_id": "43763"
+		},
+
+		{
+			"Quantity": "Amount of Substance Per Unit Volume",
+			"DimensionFormatted": "L-3.N",
+			"Ucum": "mol\/m3",
+			"Source": "qudt",
+			"pang_term_id": "43764"
+		},
+
+		{
+			"Quantity": "Angle",
+			"DimensionFormatted": null,
+			"Ucum": "rad",
+			"Source": "qudt",
+			"pang_term_id": "43765"
+		},
+
+		{
+			"Quantity": "Angle",
+			"DimensionFormatted": null,
+			"Ucum": "''",
+			"Source": "qudt",
+			"pang_term_id": "43765"
+		},
+
+		{
+			"Quantity": "Angle",
+			"DimensionFormatted": null,
+			"Ucum": "'",
+			"Source": "qudt",
+			"pang_term_id": "43765"
+		},
+
+		{
+			"Quantity": "Angle",
+			"DimensionFormatted": null,
+			"Ucum": "deg",
+			"Source": "qudt",
+			"pang_term_id": "43765"
+		},
+
+		{
+			"Quantity": "Angular Acceleration",
+			"DimensionFormatted": "U.T-2",
+			"Ucum": "rad\/s2",
+			"Source": "qudt",
+			"pang_term_id": "43766"
+		},
+
+		{
+			"Quantity": "Angular Acceleration",
+			"DimensionFormatted": "U.T-2",
+			"Ucum": "deg\/(s2)",
+			"Source": "qudt",
+			"pang_term_id": "43766"
+		},
+
+		{
+			"Quantity": "Angular Acceleration",
+			"DimensionFormatted": "U.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43766"
+		},
+
+		{
+			"Quantity": "Angular Momentum",
+			"DimensionFormatted": "L2.M.T-1",
+			"Ucum": "J.s",
+			"Source": "qudt",
+			"pang_term_id": "43768"
+		},
+
+		{
+			"Quantity": "Angular Momentum",
+			"DimensionFormatted": "L2.M.T-1",
+			"Ucum": "erg.s",
+			"Source": "qudt",
+			"pang_term_id": "43768"
+		},
+
+		{
+			"Quantity": "Angular Momentum",
+			"DimensionFormatted": "L2.M.T-1",
+			"Ucum": "eV.s",
+			"Source": "qudt",
+			"pang_term_id": "43768"
+		},
+
+		{
+			"Quantity": "Angular Momentum",
+			"DimensionFormatted": "L2.M.T-1",
+			"Ucum": "[lbf_av]}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43768"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": "rad\/s",
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": "rad\/m",
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": "deg\/s",
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": "rad\/h",
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": "deg\/h",
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Angular Velocity",
+			"DimensionFormatted": "U.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43769"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "[sin_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "[acr_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "[mi_i]}2",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "har",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "[syd_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "b",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "a",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "cm2",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "[cml_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area",
+			"DimensionFormatted": "L2",
+			"Ucum": "m2",
+			"Source": "qudt",
+			"pang_term_id": "43770"
+		},
+
+		{
+			"Quantity": "Area Angle",
+			"DimensionFormatted": "U.L2",
+			"Ucum": "m2.sr",
+			"Source": "qudt",
+			"pang_term_id": "43771"
+		},
+
+		{
+			"Quantity": "Area per Time",
+			"DimensionFormatted": "L2.T-1",
+			"Ucum": "m2.s-1",
+			"Source": "qudt",
+			"pang_term_id": "43772"
+		},
+
+		{
+			"Quantity": "Area Temperature",
+			"DimensionFormatted": "L2.C",
+			"Ucum": "m2.K",
+			"Source": "qudt",
+			"pang_term_id": "43773"
+		},
+
+		{
+			"Quantity": "Area Temperature",
+			"DimensionFormatted": "L2.C",
+			"Ucum": "[sft_i]}.[degF]}",
+			"Source": "qudt",
+			"pang_term_id": "43773"
+		},
+
+		{
+			"Quantity": "Area Thermal Expansion",
+			"DimensionFormatted": "L2.C-1",
+			"Ucum": "m2\/K",
+			"Source": "qudt",
+			"pang_term_id": "43774"
+		},
+
+		{
+			"Quantity": "Area Time",
+			"DimensionFormatted": "L2.T",
+			"Ucum": "cm2.m",
+			"Source": "qudt",
+			"pang_term_id": "43775"
+		},
+
+		{
+			"Quantity": "Area Time",
+			"DimensionFormatted": "L2.T",
+			"Ucum": "h.[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43775"
+		},
+
+		{
+			"Quantity": "Area Time",
+			"DimensionFormatted": "L2.T",
+			"Ucum": "s.ft2",
+			"Source": "qudt",
+			"pang_term_id": "43775"
+		},
+
+		{
+			"Quantity": "Area Time",
+			"DimensionFormatted": "L2.T",
+			"Ucum": "cm2.s",
+			"Source": "qudt",
+			"pang_term_id": "43775"
+		},
+
+		{
+			"Quantity": "Area Time Temperature",
+			"DimensionFormatted": "L2.T.C",
+			"Ucum": "[sft_i]}.s.[degF]}",
+			"Source": "qudt",
+			"pang_term_id": "43776"
+		},
+
+		{
+			"Quantity": "Area Time Temperature",
+			"DimensionFormatted": "L2.T.C",
+			"Ucum": "[sft_i]}.h.[degF]}",
+			"Source": "qudt",
+			"pang_term_id": "43776"
+		},
+
+		{
+			"Quantity": "Atomic Charge",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43779"
+		},
+
+		{
+			"Quantity": "Auxillary Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "Oe",
+			"Source": "qudt",
+			"pang_term_id": "43780"
+		},
+
+		{
+			"Quantity": "Auxillary Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "At\/m",
+			"Source": "qudt",
+			"pang_term_id": "43780"
+		},
+
+		{
+			"Quantity": "Auxillary Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43780"
+		},
+
+		{
+			"Quantity": "Auxillary Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "At\/[in_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43780"
+		},
+
+		{
+			"Quantity": "Auxillary Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "A\/m",
+			"Source": "qudt",
+			"pang_term_id": "43780"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L",
+			"Ucum": "nF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L",
+			"Ucum": "pF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L",
+			"Ucum": "uF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L",
+			"Ucum": "F",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-2.M-1.T4.I2",
+			"Ucum": "nF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-2.M-1.T4.I2",
+			"Ucum": "pF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-2.M-1.T4.I2",
+			"Ucum": "uF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-2.M-1.T4.I2",
+			"Ucum": "F",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-2.M-1.T4.I2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-2.M-1.T4.I2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": "nF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": "pF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": "uF",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": "F",
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Capacitance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43781"
+		},
+
+		{
+			"Quantity": "Catalytic Activity",
+			"DimensionFormatted": "T-1.N",
+			"Ucum": "kat",
+			"Source": "qudt",
+			"pang_term_id": "43783"
+		},
+
+		{
+			"Quantity": "Coefficient of Heat Transfer",
+			"DimensionFormatted": "M.T-3.C-1",
+			"Ucum": "[Btu]}\/([sft_i]}.s.[degF]})",
+			"Source": "qudt",
+			"pang_term_id": "43785"
+		},
+
+		{
+			"Quantity": "Coefficient of Heat Transfer",
+			"DimensionFormatted": "M.T-3.C-1",
+			"Ucum": "W\/(m2.K)",
+			"Source": "qudt",
+			"pang_term_id": "43785"
+		},
+
+		{
+			"Quantity": "Coefficient of Heat Transfer",
+			"DimensionFormatted": "M.T-3.C-1",
+			"Ucum": "[Btu]}\/(h.[sft_i]}.[degF]})",
+			"Source": "qudt",
+			"pang_term_id": "43785"
+		},
+
+		{
+			"Quantity": "Cubic Electric Dipole Moment per Square Energy",
+			"DimensionFormatted": "L-1.M-2.T7.I3",
+			"Ucum": "C3.m3.J-2",
+			"Source": "qudt",
+			"pang_term_id": "43788"
+		},
+
+		{
+			"Quantity": "Currency",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43789"
+		},
+
+		{
+			"Quantity": "Curvature",
+			"DimensionFormatted": "L-1",
+			"Ucum": "D",
+			"Source": "qudt",
+			"pang_term_id": "43790"
+		},
+
+		{
+			"Quantity": "Data Rate",
+			"DimensionFormatted": null,
+			"Ucum": "kbit\/s",
+			"Source": "qudt",
+			"pang_term_id": "43791"
+		},
+
+		{
+			"Quantity": "Data Rate",
+			"DimensionFormatted": null,
+			"Ucum": "bit\/s",
+			"Source": "qudt",
+			"pang_term_id": "43791"
+		},
+
+		{
+			"Quantity": "Data Rate",
+			"DimensionFormatted": null,
+			"Ucum": "Mbit\/s",
+			"Source": "qudt",
+			"pang_term_id": "43791"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[lb_av]}\/[cyd_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[lb_av]}\/[cft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[lb_av]}\/[cin_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "t\/[cyd_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[gr]}\/[gal_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[lb_av]}\/[gal_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "t\/[yd_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[oz_av]}\/[cin_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[lb_av]}\/m3",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "kg\/m3",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": "[oz_av]}\/[gal_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Density",
+			"DimensionFormatted": "L-3.M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43792"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "[gr]}",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "dB",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "U",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "Gb",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "a",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "d",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "E",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "m",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "G",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "h",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "n",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "a",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "n",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "T",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "P",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": "u",
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43793"
+		},
+
+		{
+			"Quantity": "Dimensionless Ratio",
+			"DimensionFormatted": null,
+			"Ucum": "[gr]}",
+			"Source": "qudt",
+			"pang_term_id": "43794"
+		},
+
+		{
+			"Quantity": "Dimensionless Ratio",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43794"
+		},
+
+		{
+			"Quantity": "Dimensionless Ratio",
+			"DimensionFormatted": null,
+			"Ucum": "%",
+			"Source": "qudt",
+			"pang_term_id": "43794"
+		},
+
+		{
+			"Quantity": "Dose Equivalent",
+			"DimensionFormatted": null,
+			"Ucum": "REM",
+			"Source": "qudt",
+			"pang_term_id": "43795"
+		},
+
+		{
+			"Quantity": "Dose Equivalent",
+			"DimensionFormatted": null,
+			"Ucum": "Sv",
+			"Source": "qudt",
+			"pang_term_id": "43795"
+		},
+
+		{
+			"Quantity": "Dry Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[gal_us]}{dry}",
+			"Source": "qudt",
+			"pang_term_id": "43796"
+		},
+
+		{
+			"Quantity": "Dry Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[bu_us]}",
+			"Source": "qudt",
+			"pang_tehttp://marketplace.eclipse.org/marketplace-client-intro?mpc_install=945rm_id": "43796"
+		},
+
+		{
+			"Quantity": "Dry Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[pk_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43796"
+		},
+
+		{
+			"Quantity": "Dry Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[pt_us]}{dry}",
+			"Source": "qudt",
+			"pang_term_id": "43796"
+		},
+
+		{
+			"Quantity": "Dry Volume",
+			"DimensionFormatted": null,
+			"Ucum": "C",
+			"Source": "qudt",
+			"pang_term_id": "43796"
+		},
+
+		{
+			"Quantity": "Dry Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[qt_us]}{dry}",
+			"Source": "qudt",
+			"pang_term_id": "43796"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": "cP",
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": "[lb_av]}\/([ft_i]}.h)",
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": "Pa.s",
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": "P",
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": "[lb_av]}\/([ft_i]}.s)",
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": "[lbf_av]}.s\/[sin_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Dynamic Viscosity",
+			"DimensionFormatted": "L-1.M.T-1",
+			"Ucum": "[lbf_av]}.s\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43798"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": "C",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": "A.h",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": "F",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": "C",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": "A.h",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": "F",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": "C",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": "A.h",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": "F",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": "C",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": "A.h",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": "F",
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge",
+			"DimensionFormatted": "Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43799"
+		},
+
+		{
+			"Quantity": "Electric Charge Line Density",
+			"DimensionFormatted": "L-1.Q",
+			"Ucum": "C\/m",
+			"Source": "qudt",
+			"pang_term_id": "43800"
+		},
+
+		{
+			"Quantity": "Electric Charge per Amount of Substance",
+			"DimensionFormatted": "Q.N-1",
+			"Ucum": "C.mol-1",
+			"Source": "qudt",
+			"pang_term_id": "43801"
+		},
+
+		{
+			"Quantity": "Electric Charge per Amount of Substance",
+			"DimensionFormatted": "Q.N-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43801"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "C.m-2",
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-2.Q",
+			"Ucum": "C.m-2",
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-2.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-2.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-1.5.M0.5",
+			"Ucum": "C.m-2",
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-1.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Unit Area",
+			"DimensionFormatted": "L-1.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43802"
+		},
+
+		{
+			"Quantity": "Electric Charge per Mass",
+			"DimensionFormatted": "M-1.Q",
+			"Ucum": "C.kg-1",
+			"Source": "qudt",
+			"pang_term_id": "43803"
+		},
+
+		{
+			"Quantity": "Electric Charge per Mass",
+			"DimensionFormatted": "M-1.Q",
+			"Ucum": "MHz.T-1",
+			"Source": "qudt",
+			"pang_term_id": "43803"
+		},
+
+		{
+			"Quantity": "Electric Charge per Mass",
+			"DimensionFormatted": "M-1.Q",
+			"Ucum": "s-1.T-1",
+			"Source": "qudt",
+			"pang_term_id": "43803"
+		},
+
+		{
+			"Quantity": "Electric Charge per Mass",
+			"DimensionFormatted": "M-1.Q",
+			"Ucum": "Hz.T-1",
+			"Source": "qudt",
+			"pang_term_id": "43803"
+		},
+
+		{
+			"Quantity": "Electric Charge Volume Density",
+			"DimensionFormatted": "L-3.Q",
+			"Ucum": "C.m-3",
+			"Source": "qudt",
+			"pang_term_id": "43804"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-2.M-1.T3.I2",
+			"Ucum": "S",
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-2.M-1.T3.I2",
+			"Ucum": "mho",
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-2.M-1.T3.I2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-2.M-1.T3.I2",
+			"Ucum": "aS",
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": "S",
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": "mho",
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Conductivity",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": "aS",
+			"Source": "qudt",
+			"pang_term_id": "43805"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "A",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "Bi",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "A",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "Bi",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "I",
+			"Ucum": "A",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "I",
+			"Ucum": "Bi",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "I",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "I",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "I",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "T-1.Q",
+			"Ucum": "A",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "T-1.Q",
+			"Ucum": "Bi",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "T-1.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "T-1.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "T-1.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": "A",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": "Bi",
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43806"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.I",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.I",
+			"Ucum": "A\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.I",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.I",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-1.5.M0.5.T-1",
+			"Ucum": "A\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-0.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-0.5.M0.5.T-2",
+			"Ucum": "A\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-0.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-0.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.T-1.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.T-1.Q",
+			"Ucum": "A\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.T-1.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current Density",
+			"DimensionFormatted": "L-2.T-1.Q",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43807"
+		},
+
+		{
+			"Quantity": "Electric Current per Angle",
+			"DimensionFormatted": "U-1.I",
+			"Ucum": "A\/rad",
+			"Source": "qudt",
+			"pang_term_id": "43808"
+		},
+
+		{
+			"Quantity": "Electric Current per Angle",
+			"DimensionFormatted": "U-1.I",
+			"Ucum": "A\/deg",
+			"Source": "qudt",
+			"pang_term_id": "43808"
+		},
+
+		{
+			"Quantity": "Electric Current per Unit Energy",
+			"DimensionFormatted": "L-2.M-1.T3.I",
+			"Ucum": "A.J-1",
+			"Source": "qudt",
+			"pang_term_id": "43809"
+		},
+
+		{
+			"Quantity": "Electric Current per Unit Length",
+			"DimensionFormatted": "L-1.I",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43810"
+		},
+
+		{
+			"Quantity": "Electric Current per Unit Length",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43810"
+		},
+
+		{
+			"Quantity": "Electric Current per Unit Length",
+			"DimensionFormatted": "L0.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43810"
+		},
+
+		{
+			"Quantity": "Electric Dipole Moment",
+			"DimensionFormatted": "L.Q",
+			"Ucum": "C.m",
+			"Source": "qudt",
+			"pang_term_id": "43811"
+		},
+
+		{
+			"Quantity": "Electric Dipole Moment",
+			"DimensionFormatted": "L.Q",
+			"Ucum": "D",
+			"Source": "qudt",
+			"pang_term_id": "43811"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "V.m-1",
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L.M.T-3.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L.M.T-3.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L.M.T-3.I-1",
+			"Ucum": "V.m-1",
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L0.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L0.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Field",
+			"DimensionFormatted": "L0.5.M0.5.T-2",
+			"Ucum": "V.m-1",
+			"Source": "qudt",
+			"pang_term_id": "43813"
+		},
+
+		{
+			"Quantity": "Electric Flux",
+			"DimensionFormatted": "L3.M.T-3.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43814"
+		},
+
+		{
+			"Quantity": "Electric Flux",
+			"DimensionFormatted": "L3.M.T-3.I-1",
+			"Ucum": "mV",
+			"Source": "qudt",
+			"pang_term_id": "43814"
+		},
+
+		{
+			"Quantity": "Electric Flux",
+			"DimensionFormatted": "L3.M.T-3.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43814"
+		},
+
+		{
+			"Quantity": "Electric Quadrupole Moment",
+			"DimensionFormatted": "L2.Q",
+			"Ucum": "C.m2",
+			"Source": "qudt",
+			"pang_term_id": "43817"
+		},
+
+		{
+			"Quantity": "Electromotive Force",
+			"DimensionFormatted": null,
+			"Ucum": "V",
+			"Source": "qudt",
+			"pang_term_id": "43818"
+		},
+
+		{
+			"Quantity": "Electromotive Force",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43818"
+		},
+
+		{
+			"Quantity": "Electromotive Force",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43818"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "erg",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "J",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "[in_i]}.[lbf_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "MeV",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "t\/[lbf_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "[ft_i]}.[lbf_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "[Btu]}",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "keV",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "eV",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "cal",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "kcal",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "kW.h",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "cal",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "W.h",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "GeV",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "[Btu]}",
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43819"
+		},
+
+		{
+			"Quantity": "Energy and Work per Mass Amount of Substance",
+			"DimensionFormatted": null,
+			"Ucum": "[Btu]}\/([lb_av]}.mol)",
+			"Source": "qudt",
+			"pang_term_id": "43820"
+		},
+
+		{
+			"Quantity": "Energy Density",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "J\/m3",
+			"Source": "qudt",
+			"pang_term_id": "43821"
+		},
+
+		{
+			"Quantity": "Energy Density",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "erg\/cm3",
+			"Source": "qudt",
+			"pang_term_id": "43821"
+		},
+
+		{
+			"Quantity": "Energy Density",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "J\/(m3.K)",
+			"Source": "qudt",
+			"pang_term_id": "43821"
+		},
+
+		{
+			"Quantity": "Energy per Area",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "[Btu]}\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43824"
+		},
+
+		{
+			"Quantity": "Energy per Area",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "[ft_i]}.[lbf_av]}\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43824"
+		},
+
+		{
+			"Quantity": "Energy per Area",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "kcal\/cm2",
+			"Source": "qudt",
+			"pang_term_id": "43824"
+		},
+
+		{
+			"Quantity": "Energy per Area",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "J\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43824"
+		},
+
+		{
+			"Quantity": "Energy per Area",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "[ft_i]}.[lbf_av]}\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43824"
+		},
+
+		{
+			"Quantity": "Energy per Area Electric Charge",
+			"DimensionFormatted": "M.T-3.I-1",
+			"Ucum": "V.m-2",
+			"Source": "qudt",
+			"pang_term_id": "43825"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": "V",
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "V",
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-3.I-1",
+			"Ucum": "V",
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-3.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-3.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-3.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-2.Q-1",
+			"Ucum": "V",
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-2.Q-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-2.Q-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Electric Charge",
+			"DimensionFormatted": "L2.M.T-2.Q-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43826"
+		},
+
+		{
+			"Quantity": "Energy per Square Magnetic Flux Density",
+			"DimensionFormatted": "L2.M-1.T2.I2",
+			"Ucum": "J.T-2",
+			"Source": "qudt",
+			"pang_term_id": "43827"
+		},
+
+		{
+			"Quantity": "Energy per Temperature",
+			"DimensionFormatted": "L2.M.T-2.C-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43828"
+		},
+
+		{
+			"Quantity": "Exposure",
+			"DimensionFormatted": null,
+			"Ucum": "C.kg-1",
+			"Source": "qudt",
+			"pang_term_id": "43830"
+		},
+
+		{
+			"Quantity": "Exposure",
+			"DimensionFormatted": null,
+			"Ucum": "R",
+			"Source": "qudt",
+			"pang_term_id": "43830"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": "dyn",
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": "N",
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": "kgf",
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force",
+			"DimensionFormatted": "L.M.T-2",
+			"Ucum": "[lbf_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43832"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "atm",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "at",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "[Torr]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "[ft_i]}{H2O}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "[in_i'H2O]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "mbar",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "[in_i'Hg]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "kPa",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "Pa",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "m[Torr]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "[lbf_av]}\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "m[Torr]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "bar",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "dan\/cm2",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "kgf\/cm2",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "mm[Hg]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "[psi]}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area",
+			"DimensionFormatted": "L-1.M.T-2",
+			"Ucum": "cm{H2O}",
+			"Source": "qudt",
+			"pang_term_id": "43834"
+		},
+
+		{
+			"Quantity": "Force Per Area Time",
+			"DimensionFormatted": "L-1.M.T-3",
+			"Ucum": "P\/h",
+			"Source": "qudt",
+			"pang_term_id": "43835"
+		},
+
+		{
+			"Quantity": "Force Per Area Time",
+			"DimensionFormatted": "L-1.M.T-3",
+			"Ucum": "[lbf_av]}\/[sin_i]}.s",
+			"Source": "qudt",
+			"pang_term_id": "43835"
+		},
+
+		{
+			"Quantity": "Force Per Area Time",
+			"DimensionFormatted": "L-1.M.T-3",
+			"Ucum": "P\/s",
+			"Source": "qudt",
+			"pang_term_id": "43835"
+		},
+
+		{
+			"Quantity": "Force Per Area Time",
+			"DimensionFormatted": "L-1.M.T-3",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43835"
+		},
+
+		{
+			"Quantity": "Force per Electric Charge",
+			"DimensionFormatted": "L.M.T-3.I-1",
+			"Ucum": "N\/C",
+			"Source": "qudt",
+			"pang_term_id": "43836"
+		},
+
+		{
+			"Quantity": "Force per Unit Length",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "[lbf_av]}\/[in_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43837"
+		},
+
+		{
+			"Quantity": "Force per Unit Length",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "[lbf_av]}\/[ft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43837"
+		},
+
+		{
+			"Quantity": "Force per Unit Length",
+			"DimensionFormatted": "M.T-2",
+			"Ucum": "N\/m",
+			"Source": "qudt",
+			"pang_term_id": "43837"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": "MHz",
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": "Hz",
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": "kHz",
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": "GHz",
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": "n\/a",
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "T-1",
+			"Ucum": "s-1",
+			"Source": "qudt",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Gravitational Attraction",
+			"DimensionFormatted": "L3.M-1.T-2",
+			"Ucum": "m3.kg-1.s-2",
+			"Source": "qudt",
+			"pang_term_id": "43841"
+		},
+
+		{
+			"Quantity": "Heart Rate",
+			"DimensionFormatted": null,
+			"Ucum": "{Beats}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43843"
+		},
+
+		{
+			"Quantity": "Heat Capacity",
+			"DimensionFormatted": null,
+			"Ucum": "J.K-1",
+			"Source": "qudt",
+			"pang_term_id": "43845"
+		},
+
+		{
+			"Quantity": "Heat Capacity",
+			"DimensionFormatted": null,
+			"Ucum": "eV.K-1",
+			"Source": "qudt",
+			"pang_term_id": "43845"
+		},
+
+		{
+			"Quantity": "Heat Capacity",
+			"DimensionFormatted": null,
+			"Ucum": "[Btu]}\/[degR]}",
+			"Source": "qudt",
+			"pang_term_id": "43845"
+		},
+
+		{
+			"Quantity": "Heat Capacity",
+			"DimensionFormatted": null,
+			"Ucum": "[Btu]}\/[degF]}",
+			"Source": "qudt",
+			"pang_term_id": "43845"
+		},
+
+		{
+			"Quantity": "Heat Flow Rate",
+			"DimensionFormatted": null,
+			"Ucum": "kW",
+			"Source": "qudt",
+			"pang_term_id": "43847"
+		},
+
+		{
+			"Quantity": "Heat Flow Rate",
+			"DimensionFormatted": null,
+			"Ucum": "W",
+			"Source": "qudt",
+			"pang_term_id": "43847"
+		},
+
+		{
+			"Quantity": "Heat Flow Rate",
+			"DimensionFormatted": null,
+			"Ucum": "[Btu]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43847"
+		},
+
+		{
+			"Quantity": "Heat Flow Rate",
+			"DimensionFormatted": null,
+			"Ucum": "kcal\/min",
+			"Source": "qudt",
+			"pang_term_id": "43847"
+		},
+
+		{
+			"Quantity": "Heat Flow Rate",
+			"DimensionFormatted": null,
+			"Ucum": "kcal\/s",
+			"Source": "qudt",
+			"pang_term_id": "43847"
+		},
+
+		{
+			"Quantity": "Heat Flow Rate",
+			"DimensionFormatted": null,
+			"Ucum": "[Btu]}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43847"
+		},
+
+		{
+			"Quantity": "Heat Flow Rate",
+			"DimensionFormatted": null,
+			"Ucum": "t\/fg",
+			"Source": "qudt",
+			"pang_term_id": "43847"
+		},
+
+		{
+			"Quantity": "Illuminance",
+			"DimensionFormatted": null,
+			"Ucum": "lx",
+			"Source": "qudt",
+			"pang_term_id": "43849"
+		},
+
+		{
+			"Quantity": "Illuminance",
+			"DimensionFormatted": null,
+			"Ucum": "ph",
+			"Source": "qudt",
+			"pang_term_id": "43849"
+		},
+
+		{
+			"Quantity": "Illuminance",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43849"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": "mH",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": "uH",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": "H",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L-1.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L",
+			"Ucum": "mH",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L",
+			"Ucum": "uH",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L",
+			"Ucum": "H",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L2.M.T-2.I-2",
+			"Ucum": "mH",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L2.M.T-2.I-2",
+			"Ucum": "uH",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L2.M.T-2.I-2",
+			"Ucum": "H",
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L2.M.T-2.I-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Inductance",
+			"DimensionFormatted": "L2.M.T-2.I-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43850"
+		},
+
+		{
+			"Quantity": "Information Entropy",
+			"DimensionFormatted": null,
+			"Ucum": "b",
+			"Source": "qudt",
+			"pang_term_id": "43851"
+		},
+
+		{
+			"Quantity": "Information Entropy",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43851"
+		},
+
+		{
+			"Quantity": "Information Entropy",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43851"
+		},
+
+		{
+			"Quantity": "Information Entropy",
+			"DimensionFormatted": null,
+			"Ucum": "B",
+			"Source": "qudt",
+			"pang_term_id": "43851"
+		},
+
+		{
+			"Quantity": "Inverse Amount of Substance",
+			"DimensionFormatted": "N-1",
+			"Ucum": "mol-1",
+			"Source": "qudt",
+			"pang_term_id": "43852"
+		},
+
+		{
+			"Quantity": "Inverse Energy",
+			"DimensionFormatted": "L-2.M-1.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43853"
+		},
+
+		{
+			"Quantity": "Inverse Length",
+			"DimensionFormatted": "L-1",
+			"Ucum": "m-1",
+			"Source": "qudt",
+			"pang_term_id": "43854"
+		},
+
+		{
+			"Quantity": "Inverse Length Temperature",
+			"DimensionFormatted": "L-1.C-1",
+			"Ucum": "m-1.K-1",
+			"Source": "qudt",
+			"pang_term_id": "43855"
+		},
+
+		{
+			"Quantity": "Inverse Magnetic Flux",
+			"DimensionFormatted": "L-2.M-1.T2.I",
+			"Ucum": "Hz.V-1",
+			"Source": "qudt",
+			"pang_term_id": "43856"
+		},
+
+		{
+			"Quantity": "Inverse Permittivity",
+			"DimensionFormatted": "L3.M.T-4.I-2",
+			"Ucum": "m\/F",
+			"Source": "qudt",
+			"pang_term_id": "43857"
+		},
+
+		{
+			"Quantity": "Inverse Square Energy",
+			"DimensionFormatted": "L-4.M-2.T4",
+			"Ucum": "GeV-2",
+			"Source": "qudt",
+			"pang_term_id": "43858"
+		},
+
+		{
+			"Quantity": "Inverse Time Temperature",
+			"DimensionFormatted": "T-1.C-1",
+			"Ucum": "MHz.K-1",
+			"Source": "qudt",
+			"pang_term_id": "43859"
+		},
+
+		{
+			"Quantity": "Inverse Time Temperature",
+			"DimensionFormatted": "T-1.C-1",
+			"Ucum": "Hz.K-1",
+			"Source": "qudt",
+			"pang_term_id": "43859"
+		},
+
+		{
+			"Quantity": "Inverse Volume",
+			"DimensionFormatted": "L-3",
+			"Ucum": "m-3",
+			"Source": "qudt",
+			"pang_term_id": "43860"
+		},
+
+		{
+			"Quantity": "Kinematic Viscosity",
+			"DimensionFormatted": null,
+			"Ucum": "[sft_i]}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43862"
+		},
+
+		{
+			"Quantity": "Kinematic Viscosity",
+			"DimensionFormatted": null,
+			"Ucum": "cSt",
+			"Source": "qudt",
+			"pang_term_id": "43862"
+		},
+
+		{
+			"Quantity": "Kinematic Viscosity",
+			"DimensionFormatted": null,
+			"Ucum": "St",
+			"Source": "qudt",
+			"pang_term_id": "43862"
+		},
+
+		{
+			"Quantity": "Kinematic Viscosity",
+			"DimensionFormatted": null,
+			"Ucum": "[sft_i]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43862"
+		},
+
+		{
+			"Quantity": "Kinematic Viscosity",
+			"DimensionFormatted": null,
+			"Ucum": "m2.s-1",
+			"Source": "qudt",
+			"pang_term_id": "43862"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[yd_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "ft",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[fth_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "au",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[ly]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[in_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "pc",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "Ao",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[nmi_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "Pm",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "fm",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[mi_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[rd_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[in_i]}-6",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "fm",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "pt",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[mi_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "cm",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "ft",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "km",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[mi_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "m",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "um",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[fur_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "[ch_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length",
+			"DimensionFormatted": "L",
+			"Ucum": "mm",
+			"Source": "qudt",
+			"pang_term_id": "43863"
+		},
+
+		{
+			"Quantity": "Length Force",
+			"DimensionFormatted": null,
+			"Ucum": "dyn.cm",
+			"Source": "qudt",
+			"pang_term_id": "43864"
+		},
+
+		{
+			"Quantity": "Length Force",
+			"DimensionFormatted": null,
+			"Ucum": "[lbf_av]}.[in_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43864"
+		},
+
+		{
+			"Quantity": "Length Force",
+			"DimensionFormatted": null,
+			"Ucum": "[lbf_av]}.[ft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43864"
+		},
+
+		{
+			"Quantity": "Length Force",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43864"
+		},
+
+		{
+			"Quantity": "Length Force",
+			"DimensionFormatted": null,
+			"Ucum": "N.m",
+			"Source": "qudt",
+			"pang_term_id": "43864"
+		},
+
+		{
+			"Quantity": "Length Force",
+			"DimensionFormatted": null,
+			"Ucum": "kgf.m",
+			"Source": "qudt",
+			"pang_term_id": "43864"
+		},
+
+		{
+			"Quantity": "Length Energy",
+			"DimensionFormatted": "L3.M.T-2",
+			"Ucum": "MeV.fm",
+			"Source": "qudt",
+			"pang_term_id": "43865"
+		},
+
+		{
+			"Quantity": "Length Mass",
+			"DimensionFormatted": "L.M",
+			"Ucum": "m.kg",
+			"Source": "qudt",
+			"pang_term_id": "43866"
+		},
+
+		{
+			"Quantity": "Length Molar Energy",
+			"DimensionFormatted": "L3.M.T-2.N-1",
+			"Ucum": "J.m.mol-1",
+			"Source": "qudt",
+			"pang_term_id": "43867"
+		},
+
+		{
+			"Quantity": "Length per Unit Electric Current",
+			"DimensionFormatted": "L.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43868"
+		},
+
+		{
+			"Quantity": "Length per Unit Magnetic Flux",
+			"DimensionFormatted": "L-1.M-1.T2.I",
+			"Ucum": "m-1.T-1",
+			"Source": "qudt",
+			"pang_term_id": "43869"
+		},
+
+		{
+			"Quantity": "Length Temperature",
+			"DimensionFormatted": "L.C",
+			"Ucum": "mK",
+			"Source": "qudt",
+			"pang_term_id": "43870"
+		},
+
+		{
+			"Quantity": "Length Temperature",
+			"DimensionFormatted": "L.C",
+			"Ucum": "cm.Cel",
+			"Source": "qudt",
+			"pang_term_id": "43870"
+		},
+
+		{
+			"Quantity": "Length Temperature Time",
+			"DimensionFormatted": null,
+			"Ucum": "cm.s.Cel",
+			"Source": "qudt",
+			"pang_term_id": "43871"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "[in_i]}\/s2",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "ft\/s2",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "Gal",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "G",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "cm\/s2",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "mG",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "m.s-2",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Acceleration",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "kt\/s",
+			"Source": "qudt",
+			"pang_term_id": "43872"
+		},
+
+		{
+			"Quantity": "Linear Energy Transfer",
+			"DimensionFormatted": null,
+			"Ucum": "MeV\/cm",
+			"Source": "qudt",
+			"pang_term_id": "43873"
+		},
+
+		{
+			"Quantity": "Linear Energy Transfer",
+			"DimensionFormatted": null,
+			"Ucum": "keV\/um",
+			"Source": "qudt",
+			"pang_term_id": "43873"
+		},
+
+		{
+			"Quantity": "Linear Momentum",
+			"DimensionFormatted": "L.M.T-1",
+			"Ucum": "kg.m.s-1",
+			"Source": "qudt",
+			"pang_term_id": "43874"
+		},
+
+		{
+			"Quantity": "Linear Momentum",
+			"DimensionFormatted": "L.M.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43874"
+		},
+
+		{
+			"Quantity": "Linear Momentum",
+			"DimensionFormatted": "L.M.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43874"
+		},
+
+		{
+			"Quantity": "Linear Thermal Expansion",
+			"DimensionFormatted": "L.C-1",
+			"Ucum": "m\/K",
+			"Source": "qudt",
+			"pang_term_id": "43875"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "ft\/s",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "[mi_i]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "[ft_i]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "ft\/min",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "kn",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "[nmi_i]}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "km\/s",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "m.s-1",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "m.min-1",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "[nmi_i]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "cm\/s",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "m.h-1",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "[mi_i]}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Linear Velocity",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "km\/h",
+			"Source": "qudt",
+			"pang_term_id": "43876"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[gal_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[oz_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "pt",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[oz_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[cup_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[gal_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "[qt_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Liquid Volume",
+			"DimensionFormatted": null,
+			"Ucum": "L",
+			"Source": "qudt",
+			"pang_term_id": "43877"
+		},
+
+		{
+			"Quantity": "Luminance",
+			"DimensionFormatted": "L-2.J",
+			"Ucum": "cd\/[sin_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43878"
+		},
+
+		{
+			"Quantity": "Luminance",
+			"DimensionFormatted": "L-2.J",
+			"Ucum": "ft.L",
+			"Source": "qudt",
+			"pang_term_id": "43878"
+		},
+
+		{
+			"Quantity": "Luminance",
+			"DimensionFormatted": "L-2.J",
+			"Ucum": "cd\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43878"
+		},
+
+		{
+			"Quantity": "Luminance",
+			"DimensionFormatted": "L-2.J",
+			"Ucum": "sb",
+			"Source": "qudt",
+			"pang_term_id": "43878"
+		},
+
+		{
+			"Quantity": "Luminance",
+			"DimensionFormatted": "L-2.J",
+			"Ucum": "L",
+			"Source": "qudt",
+			"pang_term_id": "43878"
+		},
+
+		{
+			"Quantity": "Luminous Efficacy",
+			"DimensionFormatted": "U.L-2.M-1.T3.J",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43879"
+		},
+
+		{
+			"Quantity": "Luminous Flux",
+			"DimensionFormatted": "U.J",
+			"Ucum": "lm",
+			"Source": "qudt",
+			"pang_term_id": "43882"
+		},
+
+		{
+			"Quantity": "Luminous Flux per Area",
+			"DimensionFormatted": "U.L-2.J",
+			"Ucum": "lx",
+			"Source": "qudt",
+			"pang_term_id": "43883"
+		},
+
+		{
+			"Quantity": "Luminous Flux per Area",
+			"DimensionFormatted": "U.L-2.J",
+			"Ucum": "ph",
+			"Source": "qudt",
+			"pang_term_id": "43883"
+		},
+
+		{
+			"Quantity": "Luminous Flux per Area",
+			"DimensionFormatted": "U.L-2.J",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43883"
+		},
+
+		{
+			"Quantity": "Luminous Intensity",
+			"DimensionFormatted": "J",
+			"Ucum": "cd",
+			"Source": "qudt",
+			"pang_term_id": "43884"
+		},
+
+		{
+			"Quantity": "Luminous Intensity",
+			"DimensionFormatted": "J",
+			"Ucum": "cd",
+			"Source": "qudt",
+			"pang_term_id": "43884"
+		},
+
+		{
+			"Quantity": "Luminous Intensity",
+			"DimensionFormatted": "J",
+			"Ucum": "cd",
+			"Source": "qudt",
+			"pang_term_id": "43884"
+		},
+
+		{
+			"Quantity": "Magnetic Dipole Moment",
+			"DimensionFormatted": "L2.I",
+			"Ucum": "J.T-1",
+			"Source": "qudt",
+			"pang_term_id": "43886"
+		},
+
+		{
+			"Quantity": "Magnetic Dipole Moment",
+			"DimensionFormatted": "L2.I",
+			"Ucum": "eV.T-1",
+			"Source": "qudt",
+			"pang_term_id": "43886"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "T",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": "G",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-0.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-2.I-1",
+			"Ucum": "T",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-2.I-1",
+			"Ucum": "G",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-2.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-2.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-1.Q-1",
+			"Ucum": "T",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-1.Q-1",
+			"Ucum": "G",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-1.Q-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "M.T-1.Q-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-1.5.M0.5",
+			"Ucum": "T",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-1.5.M0.5",
+			"Ucum": "G",
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-1.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Field",
+			"DimensionFormatted": "L-1.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43887"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L2.M.T-2.I-1",
+			"Ucum": "Wb",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L2.M.T-2.I-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L2.M.T-2.I-1",
+			"Ucum": "U\/nWb",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L2.M.T-2.I-1",
+			"Ucum": "Mx",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": "Wb",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": "U\/nWb",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L1.5.M0.5.T-1",
+			"Ucum": "Mx",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": "Wb",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": "U\/nWb",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux",
+			"DimensionFormatted": "L0.5.M0.5",
+			"Ucum": "Mx",
+			"Source": "qudt",
+			"pang_term_id": "43888"
+		},
+
+		{
+			"Quantity": "Magnetic Flux per Unit Length",
+			"DimensionFormatted": "L.M.T-2.I-1",
+			"Ucum": "mT",
+			"Source": "qudt",
+			"pang_term_id": "43889"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "Oe.cm",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "Gb",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "L1.5.M0.5.T-2",
+			"Ucum": "At",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "U.I",
+			"Ucum": "Oe.cm",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "U.I",
+			"Ucum": "Gb",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "U.I",
+			"Ucum": "At",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": "Oe.cm",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": "Gb",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Magnetomotive Force",
+			"DimensionFormatted": "L0.5.M0.5.T-1",
+			"Ucum": "At",
+			"Source": "qudt",
+			"pang_term_id": "43891"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "u",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "kg",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "[gr]}",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "g",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "[lb_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "t",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "[oz_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "[oz_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "[pwt_tr]}",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "[lb_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "mT",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "t",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": "[car_m]}",
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass",
+			"DimensionFormatted": "M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43892"
+		},
+
+		{
+			"Quantity": "Mass Amount of Substance",
+			"DimensionFormatted": null,
+			"Ucum": "[lb_av]}.mol",
+			"Source": "qudt",
+			"pang_term_id": "43893"
+		},
+
+		{
+			"Quantity": "Mass Amount of Substance Temperature",
+			"DimensionFormatted": null,
+			"Ucum": "[lb_av]}.mol.[degF]}",
+			"Source": "qudt",
+			"pang_term_id": "43894"
+		},
+
+		{
+			"Quantity": "Mass per Area",
+			"DimensionFormatted": "L-2.M",
+			"Ucum": "[lb_av]}\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43895"
+		},
+
+		{
+			"Quantity": "Mass per Area",
+			"DimensionFormatted": "L-2.M",
+			"Ucum": "[oz_av]}\/[syd_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43895"
+		},
+
+		{
+			"Quantity": "Mass per Area",
+			"DimensionFormatted": "L-2.M",
+			"Ucum": "[oz_av]}\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43895"
+		},
+
+		{
+			"Quantity": "Mass per Area",
+			"DimensionFormatted": "L-2.M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43895"
+		},
+
+		{
+			"Quantity": "Mass per Area",
+			"DimensionFormatted": "L-2.M",
+			"Ucum": "kg\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43895"
+		},
+
+		{
+			"Quantity": "Mass per Area Time",
+			"DimensionFormatted": "L-2.M.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43896"
+		},
+
+		{
+			"Quantity": "Mass per Electric Charge",
+			"DimensionFormatted": "M.T-1.I-1",
+			"Ucum": "s.T",
+			"Source": "qudt",
+			"pang_term_id": "43897"
+		},
+
+		{
+			"Quantity": "Mass per Length",
+			"DimensionFormatted": "L-1.M",
+			"Ucum": "[lb_av]}\/[ft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43898"
+		},
+
+		{
+			"Quantity": "Mass per Length",
+			"DimensionFormatted": "L-1.M",
+			"Ucum": "tex",
+			"Source": "qudt",
+			"pang_term_id": "43898"
+		},
+
+		{
+			"Quantity": "Mass per Length",
+			"DimensionFormatted": "L-1.M",
+			"Ucum": "[lb_av]}\/[in_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43898"
+		},
+
+		{
+			"Quantity": "Mass per Length",
+			"DimensionFormatted": "L-1.M",
+			"Ucum": "kg\/m",
+			"Source": "qudt",
+			"pang_term_id": "43898"
+		},
+
+		{
+			"Quantity": "Mass per Length",
+			"DimensionFormatted": "L-1.M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43898"
+		},
+
+		{
+			"Quantity": "Mass per Length",
+			"DimensionFormatted": "L-1.M",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43898"
+		},
+
+		{
+			"Quantity": "Mass per Time",
+			"DimensionFormatted": "M.T-1",
+			"Ucum": "kg\/s",
+			"Source": "qudt",
+			"pang_term_id": "43899"
+		},
+
+		{
+			"Quantity": "Mass per Time",
+			"DimensionFormatted": "M.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43899"
+		},
+
+		{
+			"Quantity": "Mass per Time",
+			"DimensionFormatted": "M.T-1",
+			"Ucum": "[lb_av]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43899"
+		},
+
+		{
+			"Quantity": "Mass per Time",
+			"DimensionFormatted": "M.T-1",
+			"Ucum": "kg\/h",
+			"Source": "qudt",
+			"pang_term_id": "43899"
+		},
+
+		{
+			"Quantity": "Mass per Time",
+			"DimensionFormatted": "M.T-1",
+			"Ucum": "[ston_av]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43899"
+		},
+
+		{
+			"Quantity": "Mass per Time",
+			"DimensionFormatted": "M.T-1",
+			"Ucum": "[lb_av]}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43899"
+		},
+
+		{
+			"Quantity": "Mass Temperature",
+			"DimensionFormatted": "M.C",
+			"Ucum": "g.Cel",
+			"Source": "qudt",
+			"pang_term_id": "43900"
+		},
+
+		{
+			"Quantity": "Mass Temperature",
+			"DimensionFormatted": "M.C",
+			"Ucum": "[lb_av]}.[degR]}",
+			"Source": "qudt",
+			"pang_term_id": "43900"
+		},
+
+		{
+			"Quantity": "Mass Temperature",
+			"DimensionFormatted": "M.C",
+			"Ucum": "[lb_av]}.[degF]}",
+			"Source": "qudt",
+			"pang_term_id": "43900"
+		},
+
+		{
+			"Quantity": "Mass Temperature",
+			"DimensionFormatted": "M.C",
+			"Ucum": "kg.K",
+			"Source": "qudt",
+			"pang_term_id": "43900"
+		},
+
+		{
+			"Quantity": "Microbial Formation",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43901"
+		},
+
+		{
+			"Quantity": "Molar Angular Momentum",
+			"DimensionFormatted": "L2.M.T-1.N-1",
+			"Ucum": "J.s.mol-1",
+			"Source": "qudt",
+			"pang_term_id": "43902"
+		},
+
+		{
+			"Quantity": "Molar Energy",
+			"DimensionFormatted": "L2.M.T-2.N-1",
+			"Ucum": "J\/mol",
+			"Source": "qudt",
+			"pang_term_id": "43903"
+		},
+
+		{
+			"Quantity": "Molar Energy",
+			"DimensionFormatted": "L2.M.T-2.N-1",
+			"Ucum": "kcal\/mol",
+			"Source": "qudt",
+			"pang_term_id": "43903"
+		},
+
+		{
+			"Quantity": "Molar Heat Capacity",
+			"DimensionFormatted": "L2.M.T-2.C-1.N-1",
+			"Ucum": "J.mol-1.K-1",
+			"Source": "qudt",
+			"pang_term_id": "43904"
+		},
+
+		{
+			"Quantity": "Molar Heat Capacity",
+			"DimensionFormatted": "L2.M.T-2.C-1.N-1",
+			"Ucum": "kcal\/(mol.Cel)",
+			"Source": "qudt",
+			"pang_term_id": "43904"
+		},
+
+		{
+			"Quantity": "Molar Heat Capacity",
+			"DimensionFormatted": "L2.M.T-2.C-1.N-1",
+			"Ucum": "[Btu]}\/([lb_av]}.mol.[degF]})",
+			"Source": "qudt",
+			"pang_term_id": "43904"
+		},
+
+		{
+			"Quantity": "Molar Mass",
+			"DimensionFormatted": "M.N-1",
+			"Ucum": "kg.mol-1",
+			"Source": "qudt",
+			"pang_term_id": "43905"
+		},
+
+		{
+			"Quantity": "Molar Volume",
+			"DimensionFormatted": "L3.N-1",
+			"Ucum": "m3.mol-1",
+			"Source": "qudt",
+			"pang_term_id": "43906"
+		},
+
+		{
+			"Quantity": "Molecular Mass",
+			"DimensionFormatted": null,
+			"Ucum": "u",
+			"Source": "qudt",
+			"pang_term_id": "43908"
+		},
+
+		{
+			"Quantity": "Molecular Mass",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43908"
+		},
+
+		{
+			"Quantity": "Moment of Inertia",
+			"DimensionFormatted": "L2.M",
+			"Ucum": "kg.m2",
+			"Source": "qudt",
+			"pang_term_id": "43910"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "L-2.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "L-2.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "L-2.T2",
+			"Ucum": "H\/m",
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "U",
+			"Ucum": "H\/m",
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "L.M.T-2.I-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "L.M.T-2.I-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permeability",
+			"DimensionFormatted": "L.M.T-2.I-2",
+			"Ucum": "H\/m",
+			"Source": "qudt",
+			"pang_term_id": "43913"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "U",
+			"Ucum": "F.m-1",
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "U",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "L-3.M-1.T4.I2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "L-3.M-1.T4.I2",
+			"Ucum": "F.m-1",
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "L-3.M-1.T4.I2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "L-2.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "L-2.T2",
+			"Ucum": "F.m-1",
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Permittivity",
+			"DimensionFormatted": "L-2.T2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43914"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": "gon",
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": "rad",
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": "[mi_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": "gon",
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": "''",
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": "'",
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Plane Angle",
+			"DimensionFormatted": null,
+			"Ucum": "deg",
+			"Source": "qudt",
+			"pang_term_id": "43915"
+		},
+
+		{
+			"Quantity": "Polarizability",
+			"DimensionFormatted": "M-1.T4.I2",
+			"Ucum": "C2.m2.J-1",
+			"Source": "qudt",
+			"pang_term_id": "43917"
+		},
+
+		{
+			"Quantity": "Polarization Field",
+			"DimensionFormatted": null,
+			"Ucum": "C.m-2",
+			"Source": "qudt",
+			"pang_term_id": "43918"
+		},
+
+		{
+			"Quantity": "Polarization Field",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43918"
+		},
+
+		{
+			"Quantity": "Polarization Field",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43918"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "kW",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "erg\/s",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "W",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[HP]}{Water}",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[HP]}",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[HP]}{electric}",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[Btu]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "kcal\/min",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "kcal\/s",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[Btu]}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[ft_i]}.[lbf_av]}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[HP]}{Metric}",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[ft_i]}.[lbf_av]}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "[ft_i]}.[lbf_av]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power",
+			"DimensionFormatted": "L2.M.T-3",
+			"Ucum": "t\/fg",
+			"Source": "qudt",
+			"pang_term_id": "43920"
+		},
+
+		{
+			"Quantity": "Power Area",
+			"DimensionFormatted": "L4.M.T-3",
+			"Ucum": "W.m2",
+			"Source": "qudt",
+			"pang_term_id": "43921"
+		},
+
+		{
+			"Quantity": "Power Area per Solid Angle",
+			"DimensionFormatted": "U-1.L4.M.T-3",
+			"Ucum": "W.m2.sr-1",
+			"Source": "qudt",
+			"pang_term_id": "43922"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "kcal\/(cm2.s)",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "W\/m2",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "kcal\/(cm2.min)",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "W\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "[Btu]}\/(h.[sft_i]})",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "W\/[sin_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "[Btu]}\/(s.[sft_i]})",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "erg\/(cm2.s)",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area",
+			"DimensionFormatted": "M.T-3",
+			"Ucum": "W\/cm2",
+			"Source": "qudt",
+			"pang_term_id": "43923"
+		},
+
+		{
+			"Quantity": "Power per Area Angle",
+			"DimensionFormatted": null,
+			"Ucum": "W\/(m2.sr)",
+			"Source": "qudt",
+			"pang_term_id": "43924"
+		},
+
+		{
+			"Quantity": "Power per Area Quartic Temperature",
+			"DimensionFormatted": "M.T-3.C-4",
+			"Ucum": "W.m-2.K-4",
+			"Source": "qudt",
+			"pang_term_id": "43925"
+		},
+
+		{
+			"Quantity": "Power per Electric Charge",
+			"DimensionFormatted": "L2.M.T-4.I-1",
+			"Ucum": "V\/s",
+			"Source": "qudt",
+			"pang_term_id": "43926"
+		},
+
+		{
+			"Quantity": "Quartic Electric Dipole Moment per Cubic Energy",
+			"DimensionFormatted": "L-2.M-3.T10.I4",
+			"Ucum": "C4.m4.J-3",
+			"Source": "qudt",
+			"pang_term_id": "43928"
+		},
+
+		{
+			"Quantity": "RF-Power",
+			"DimensionFormatted": null,
+			"Ucum": "dB",
+			"Source": "qudt",
+			"pang_term_id": "43929"
+		},
+
+		{
+			"Quantity": "Radiance",
+			"DimensionFormatted": "U-1.M.T-3",
+			"Ucum": "W\/(m2.sr)",
+			"Source": "qudt",
+			"pang_term_id": "43930"
+		},
+
+		{
+			"Quantity": "Radiant Intensity",
+			"DimensionFormatted": "U-1.L2.M.T-3",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43934"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-1.Q-2",
+			"Ucum": "Ohm",
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-1.Q-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-1.Q-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-1.Q-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": "Ohm",
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": "Ohm",
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L.T-1",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-3.I-2",
+			"Ucum": "Ohm",
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-3.I-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-3.I-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Resistance",
+			"DimensionFormatted": "L2.M.T-3.I-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43936"
+		},
+
+		{
+			"Quantity": "Respiratory Rate",
+			"DimensionFormatted": null,
+			"Ucum": "{Breaths}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43937"
+		},
+
+		{
+			"Quantity": "Serum or Plasma Level",
+			"DimensionFormatted": null,
+			"Ucum": "[iU]}\/L",
+			"Source": "qudt",
+			"pang_term_id": "43940"
+		},
+
+		{
+			"Quantity": "Signal Detection Threshold",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43941"
+		},
+
+		{
+			"Quantity": "Signal Strength",
+			"DimensionFormatted": null,
+			"Ucum": "dB",
+			"Source": "qudt",
+			"pang_term_id": "43942"
+		},
+
+		{
+			"Quantity": "Solid Angle",
+			"DimensionFormatted": null,
+			"Ucum": "sr",
+			"Source": "qudt",
+			"pang_term_id": "43943"
+		},
+
+		{
+			"Quantity": "Solid Angle",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43943"
+		},
+
+		{
+			"Quantity": "Solid Angle",
+			"DimensionFormatted": null,
+			"Ucum": "deg2",
+			"Source": "qudt",
+			"pang_term_id": "43943"
+		},
+
+		{
+			"Quantity": "Specific Energy",
+			"DimensionFormatted": "L2.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43944"
+		},
+
+		{
+			"Quantity": "Specific Energy",
+			"DimensionFormatted": "L2.T-2",
+			"Ucum": "J\/kg",
+			"Source": "qudt",
+			"pang_term_id": "43944"
+		},
+
+		{
+			"Quantity": "Specific Energy",
+			"DimensionFormatted": "L2.T-2",
+			"Ucum": "kcal\/g",
+			"Source": "qudt",
+			"pang_term_id": "43944"
+		},
+
+		{
+			"Quantity": "Specific Energy",
+			"DimensionFormatted": "L2.T-2",
+			"Ucum": "[Btu]}\/[lb_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43944"
+		},
+
+		{
+			"Quantity": "Specific Heat Capacity",
+			"DimensionFormatted": "L2.T-2.C-1",
+			"Ucum": "J\/(kg.K)",
+			"Source": "qudt",
+			"pang_term_id": "43945"
+		},
+
+		{
+			"Quantity": "Specific Heat Capacity",
+			"DimensionFormatted": "L2.T-2.C-1",
+			"Ucum": "kcal\/(g.Cel)",
+			"Source": "qudt",
+			"pang_term_id": "43945"
+		},
+
+		{
+			"Quantity": "Specific Heat Capacity",
+			"DimensionFormatted": "L2.T-2.C-1",
+			"Ucum": "[Btu]}\/([lb_av]}.[degR]})",
+			"Source": "qudt",
+			"pang_term_id": "43945"
+		},
+
+		{
+			"Quantity": "Specific Heat Capacity",
+			"DimensionFormatted": "L2.T-2.C-1",
+			"Ucum": "[Btu]}\/([lb_av]}.[degF]})",
+			"Source": "qudt",
+			"pang_term_id": "43945"
+		},
+
+		{
+			"Quantity": "Specific Heat Pressure",
+			"DimensionFormatted": "L3.M-1.C-1",
+			"Ucum": "J\/(km.K.Pa)",
+			"Source": "qudt",
+			"pang_term_id": "43946"
+		},
+
+		{
+			"Quantity": "Specific Heat Volume",
+			"DimensionFormatted": "L-1.T-2.C-1",
+			"Ucum": "J\/(kg.K.m3)",
+			"Source": "qudt",
+			"pang_term_id": "43947"
+		},
+
+		{
+			"Quantity": "Specific Volume",
+			"DimensionFormatted": "L3.M-1",
+			"Ucum": "m3\/kg",
+			"Source": "qudt",
+			"pang_term_id": "43950"
+		},
+
+		{
+			"Quantity": "Square Energy",
+			"DimensionFormatted": "L4.M2.T-4",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43952"
+		},
+
+		{
+			"Quantity": "Standard Gravitational Parameter",
+			"DimensionFormatted": "L3.T-2",
+			"Ucum": "km3\/s2",
+			"Source": "qudt",
+			"pang_term_id": "43953"
+		},
+
+		{
+			"Quantity": "Standard Gravitational Parameter",
+			"DimensionFormatted": "L3.T-2",
+			"Ucum": "m3\/s2",
+			"Source": "qudt",
+			"pang_term_id": "43953"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "atm",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "at",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "[Torr]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "[ft_i]}{H2O}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "[in_i'H2O]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "mbar",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "[in_i'Hg]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "kPa",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "Pa",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "m[Torr]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "[lbf_av]}\/[sft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "m[Torr]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "bar",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "dan\/cm2",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "kgf\/cm2",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "mm[Hg]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "[psi]}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Stress",
+			"DimensionFormatted": null,
+			"Ucum": "cm{H2O}",
+			"Source": "qudt",
+			"pang_term_id": "43958"
+		},
+
+		{
+			"Quantity": "Temperature Amount of Substance",
+			"DimensionFormatted": "C.N",
+			"Ucum": "mol.K",
+			"Source": "qudt",
+			"pang_term_id": "43959"
+		},
+
+		{
+			"Quantity": "Temperature Amount of Substance",
+			"DimensionFormatted": "C.N",
+			"Ucum": "mol.Cel",
+			"Source": "qudt",
+			"pang_term_id": "43959"
+		},
+
+		{
+			"Quantity": "Temperature per Magnetic Flux Density",
+			"DimensionFormatted": "M-1.T2.I.C",
+			"Ucum": "K.T-1",
+			"Source": "qudt",
+			"pang_term_id": "43960"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "[degR]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "Cel\/s",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "K\/m",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "[degF]}\/m",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "Cel\/h",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "[degR]}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "[degF]}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "K\/h",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "K\/s",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "[degF]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "Cel\/m",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Temperature per Time",
+			"DimensionFormatted": "T-1.C",
+			"Ucum": "[degR]}\/m",
+			"Source": "qudt",
+			"pang_term_id": "43961"
+		},
+
+		{
+			"Quantity": "Thermal Conductivity",
+			"DimensionFormatted": "L.M.T-3.C-1",
+			"Ucum": "[Btu]}.[in_i]}\/(h.[sft_i]}.[degF]})",
+			"Source": "qudt",
+			"pang_term_id": "43963"
+		},
+
+		{
+			"Quantity": "Thermal Conductivity",
+			"DimensionFormatted": "L.M.T-3.C-1",
+			"Ucum": "W\/(m.K)",
+			"Source": "qudt",
+			"pang_term_id": "43963"
+		},
+
+		{
+			"Quantity": "Thermal Conductivity",
+			"DimensionFormatted": "L.M.T-3.C-1",
+			"Ucum": "[Btu]}.[ft_i]}\/(h.[sft_i]}.[degF]})",
+			"Source": "qudt",
+			"pang_term_id": "43963"
+		},
+
+		{
+			"Quantity": "Thermal Conductivity",
+			"DimensionFormatted": "L.M.T-3.C-1",
+			"Ucum": "[Btu]}.[in_i]}\/([sft_i]}.s.[degF]})",
+			"Source": "qudt",
+			"pang_term_id": "43963"
+		},
+
+		{
+			"Quantity": "Thermal Conductivity",
+			"DimensionFormatted": "L.M.T-3.C-1",
+			"Ucum": "cal\/(cm.s.Cel)",
+			"Source": "qudt",
+			"pang_term_id": "43963"
+		},
+
+		{
+			"Quantity": "Thermal Diffusivity",
+			"DimensionFormatted": null,
+			"Ucum": "[sft_i]}\/h",
+			"Source": "qudt",
+			"pang_term_id": "43964"
+		},
+
+		{
+			"Quantity": "Thermal Diffusivity",
+			"DimensionFormatted": null,
+			"Ucum": "m2.s-1",
+			"Source": "qudt",
+			"pang_term_id": "43964"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": "J",
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": "[Btu]}",
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": "cal",
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": "kcal",
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": "cal",
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy",
+			"DimensionFormatted": null,
+			"Ucum": "[Btu]}",
+			"Source": "qudt",
+			"pang_term_id": "43966"
+		},
+
+		{
+			"Quantity": "Thermal Energy Length",
+			"DimensionFormatted": "L3.M.T-2",
+			"Ucum": "[Btu]}.[ft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43967"
+		},
+
+		{
+			"Quantity": "Thermal Energy Length",
+			"DimensionFormatted": "L3.M.T-2",
+			"Ucum": "[Btu]}.[in_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43967"
+		},
+
+		{
+			"Quantity": "Thermal Insulance",
+			"DimensionFormatted": "M-1.T3.C",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43968"
+		},
+
+		{
+			"Quantity": "Thermal Insulance",
+			"DimensionFormatted": "M-1.T3.C",
+			"Ucum": "m2.K\/W",
+			"Source": "qudt",
+			"pang_term_id": "43968"
+		},
+
+		{
+			"Quantity": "Thermal Insulance",
+			"DimensionFormatted": "M-1.T3.C",
+			"Ucum": "([degF]}.h.[sft_i]})\/[Btu]}",
+			"Source": "qudt",
+			"pang_term_id": "43968"
+		},
+
+		{
+			"Quantity": "Thermal Resistance",
+			"DimensionFormatted": "L-2.M-1.T3.C",
+			"Ucum": "K\/W",
+			"Source": "qudt",
+			"pang_term_id": "43969"
+		},
+
+		{
+			"Quantity": "Thermal Resistance",
+			"DimensionFormatted": "L-2.M-1.T3.C",
+			"Ucum": "[degF]}.h\/[Btu]}",
+			"Source": "qudt",
+			"pang_term_id": "43969"
+		},
+
+		{
+			"Quantity": "Thermal Resistivity",
+			"DimensionFormatted": "L-1.M-1.T3.C",
+			"Ucum": "K.m\/W",
+			"Source": "qudt",
+			"pang_term_id": "43970"
+		},
+
+		{
+			"Quantity": "Thermal Resistivity",
+			"DimensionFormatted": "L-1.M-1.T3.C",
+			"Ucum": "[sft_i]}\/([Btu]}.[in_i]})",
+			"Source": "qudt",
+			"pang_term_id": "43970"
+		},
+
+		{
+			"Quantity": "Thermal Resistivity",
+			"DimensionFormatted": "L-1.M-1.T3.C",
+			"Ucum": "[degF]}.h",
+			"Source": "qudt",
+			"pang_term_id": "43970"
+		},
+
+		{
+			"Quantity": "Temperature",
+			"DimensionFormatted": "C",
+			"Ucum": "[degF]}",
+			"Source": "qudt",
+			"pang_term_id": "43972"
+		},
+
+		{
+			"Quantity": "Temperature",
+			"DimensionFormatted": "C",
+			"Ucum": "[degR]}",
+			"Source": "qudt",
+			"pang_term_id": "43972"
+		},
+
+		{
+			"Quantity": "Temperature",
+			"DimensionFormatted": "C",
+			"Ucum": "Cel",
+			"Source": "qudt",
+			"pang_term_id": "43972"
+		},
+
+		{
+			"Quantity": "Temperature",
+			"DimensionFormatted": "C",
+			"Ucum": "K",
+			"Source": "qudt",
+			"pang_term_id": "43972"
+		},
+
+		{
+			"Quantity": "Temperature",
+			"DimensionFormatted": "C",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43972"
+		},
+
+		{
+			"Quantity": "Temperature",
+			"DimensionFormatted": "C",
+			"Ucum": "Cel",
+			"Source": "qudt",
+			"pang_term_id": "43972"
+		},
+
+		{
+			"Quantity": "Thrust to Mass Ratio",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "N\/kg",
+			"Source": "qudt",
+			"pang_term_id": "43974"
+		},
+
+		{
+			"Quantity": "Thrust to Mass Ratio",
+			"DimensionFormatted": "L.T-2",
+			"Ucum": "[lbf_av]}\/[lb_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43974"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "ms",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "d",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "us",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "h",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "h",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "d",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "s",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "min",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "min",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "a",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "a",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time",
+			"DimensionFormatted": "T",
+			"Ucum": "a",
+			"Source": "qudt",
+			"pang_term_id": "43975"
+		},
+
+		{
+			"Quantity": "Time Squared",
+			"DimensionFormatted": "T2",
+			"Ucum": "s2",
+			"Source": "qudt",
+			"pang_term_id": "43976"
+		},
+
+		{
+			"Quantity": "Time Temperature",
+			"DimensionFormatted": "T.C",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43977"
+		},
+
+		{
+			"Quantity": "Torque",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "dyn.cm",
+			"Source": "qudt",
+			"pang_term_id": "43978"
+		},
+
+		{
+			"Quantity": "Torque",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "[lbf_av]}.[in_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43978"
+		},
+
+		{
+			"Quantity": "Torque",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "[lbf_av]}.[ft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43978"
+		},
+
+		{
+			"Quantity": "Torque",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43978"
+		},
+
+		{
+			"Quantity": "Torque",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "N.m",
+			"Source": "qudt",
+			"pang_term_id": "43978"
+		},
+
+		{
+			"Quantity": "Torque",
+			"DimensionFormatted": "L2.M.T-2",
+			"Ucum": "kgf.m",
+			"Source": "qudt",
+			"pang_term_id": "43978"
+		},
+
+		{
+			"Quantity": "Turbidity",
+			"DimensionFormatted": null,
+			"Ucum": "{NTU}",
+			"Source": "qudt",
+			"pang_term_id": "43980"
+		},
+
+		{
+			"Quantity": "Video Frame Rate",
+			"DimensionFormatted": null,
+			"Ucum": "{frames}\/s",
+			"Source": "qudt",
+			"pang_term_id": "43982"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[cyd_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "st",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "ft3",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[cin_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[mi_i]}3",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[gal_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[acr_us]}.[ft_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[tsp_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[oz_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": null,
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[gal_us]}{dry}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "pt",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[bf_i]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[oz_av]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[cup_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[gal_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[bu_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[tbs_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[qt_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "m3",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[bbl_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[pk_us]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "cm3",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[pt_us]}{dry}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "L",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[pt_br]}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "C",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "[qt_us]}{dry}",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume",
+			"DimensionFormatted": "L3",
+			"Ucum": "m3",
+			"Source": "qudt",
+			"pang_term_id": "43984"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "ft3\/min",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "[cyd_i]}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "[gal_us]}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "[cin_i]}\/min",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "m3\/h",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "ft3\/s",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "m3\/s",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume per Unit Time",
+			"DimensionFormatted": "L3.T-1",
+			"Ucum": "[gal_us]}\/d",
+			"Source": "qudt",
+			"pang_term_id": "43985"
+		},
+
+		{
+			"Quantity": "Volume Thermal Expansion",
+			"DimensionFormatted": "L3.C-1",
+			"Ucum": "m3\/K",
+			"Source": "qudt",
+			"pang_term_id": "43986"
+		},
+
+		{
+			"Quantity": "Volumetric Heat Capacity",
+			"DimensionFormatted": "L-1.M.T-2.C-1",
+			"Ucum": "J\/(m3.K)",
+			"Source": "qudt",
+			"pang_term_id": "43987"
+		},
+
+		{
+			"Quantity": "Abundance per Length\/Frequency",
+			"DimensionFormatted": "L-1.Z",
+			"Ucum": "n\/m",
+			"Source": "pangaea",
+			"pang_term_id": "44021"
+		},
+
+		{
+			"Quantity": "Individual Density",
+			"DimensionFormatted": "L-2.Z",
+			"Ucum": "n\/m2",
+			"Source": "pangaea",
+			"pang_term_id": "44022"
+		},
+
+		{
+			"Quantity": "Abundance per Volume",
+			"DimensionFormatted": "L-3.Z",
+			"Ucum": "n\/m3",
+			"Source": "pangaea",
+			"pang_term_id": "44023"
+		},
+
+		{
+			"Quantity": "Abundance per Mass",
+			"DimensionFormatted": "M-1.Z",
+			"Ucum": "n\/g",
+			"Source": "pangaea",
+			"pang_term_id": "44024"
+		},
+
+		{
+			"Quantity": "Abundance or Count",
+			"DimensionFormatted": "Z",
+			"Ucum": "n",
+			"Source": "pangaea",
+			"pang_term_id": "44025"
+		},
+
+		{
+			"Quantity": "Accumulation Rate\/Flux",
+			"DimensionFormatted": "L-2.Z.T-1",
+			"Ucum": "n\/m2\/s",
+			"Source": "pangaea",
+			"pang_term_id": "44026"
+		},
+
+		{
+			"Quantity": "Mass Accumulation Rate\/Flux",
+			"DimensionFormatted": "M.L-2.T-1",
+			"Ucum": "g\/m2\/s",
+			"Source": "pangaea",
+			"pang_term_id": "44027"
+		},
+
+		{
+			"Quantity": "Accumulation Rate",
+			"DimensionFormatted": "M-1.Z.T-1",
+			"Ucum": "n\/g\/s",
+			"Source": "pangaea",
+			"pang_term_id": "44028"
+		},
+
+		{
+			"Quantity": "Molar Flux",
+			"DimensionFormatted": "L-2.N.T-1",
+			"Ucum": "mol\/m2\/s",
+			"Source": "pangaea",
+			"pang_term_id": "44029"
+		},
+
+		{
+			"Quantity": "Molar Concentration",
+			"DimensionFormatted": "L-3.N",
+			"Ucum": "mol\/m3",
+			"Source": "pangaea",
+			"pang_term_id": "44030"
+		},
+
+		{
+			"Quantity": "Molar Concentration",
+			"DimensionFormatted": "M-1.N",
+			"Ucum": "mol\/kg",
+			"Source": "pangaea",
+			"pang_term_id": "44030"
+		},
+
+		{
+			"Quantity": "Accumulation Rate",
+			"DimensionFormatted": "L-3.Z.T-1",
+			"Ucum": "n\/m3\/s",
+			"Source": "pangaea",
+			"pang_term_id": "44028"
+		},
+
+		{
+			"Quantity": "Reaction Rate",
+			"DimensionFormatted": "L-3.N.T-1",
+			"Ucum": "mol\/m3\/s",
+			"Source": "pangaea",
+			"pang_term_id": "44031"
+		},
+
+		{
+			"Quantity": "Specific Activity",
+			"DimensionFormatted": "M-1.N.T-1",
+			"Ucum": "mol\/g\/s",
+			"Source": "pangaea",
+			"pang_term_id": "44032"
+		},
+
+		{
+			"Quantity": "Molar Fraction Gradient",
+			"DimensionFormatted": "L-1.N",
+			"Ucum": "mol\/m",
+			"Source": "pangaea",
+			"pang_term_id": "44033"
+		},
+
+		{
+			"Quantity": "Frequency",
+			"DimensionFormatted": "Z.T-1",
+			"Ucum": "n\/s",
+			"Source": "pangaea",
+			"pang_term_id": "43838"
+		},
+
+		{
+			"Quantity": "Fraction",
+			"DimensionFormatted": "Z-1",
+			"Ucum": "%\/n",
+			"Source": "pangaea",
+			"pang_term_id": "44034"
+		},
+
+		{
+			"Quantity": "Fraction",
+			"DimensionFormatted": null,
+			"Ucum": "n\/n",
+			"Source": "pangaea",
+			"pang_term_id": "44034"
+		},
+
+		{
+			"Quantity": "Specific Electrical Resistance",
+			"DimensionFormatted": "I-2.M.L3.T-1",
+			"Ucum": "Ohm.m",
+			"Source": "pangaea",
+			"pang_term_id": "44035"
+		},
+
+		{
+			"Quantity": "Time per Length",
+			"DimensionFormatted": "L-1.T",
+			"Ucum": "s\/m",
+			"Source": "pangaea",
+			"pang_term_id": "44036"
+		},
+
+		{
+			"Quantity": "Pressure Gradient",
+			"DimensionFormatted": null,
+			"Ucum": "Pa\/m",
+			"Source": "pangaea",
+			"pang_term_id": "44037"
+		},
+
+		{
+			"Quantity": "Transit Time",
+			"DimensionFormatted": null,
+			"Ucum": "us\/[ft_i]}",
+			"Source": "pangaea",
+			"pang_term_id": "44038"
+		},
+
+		{
+			"Quantity": "Absorption Coefficient",
+			"DimensionFormatted": "L-1",
+			"Ucum": "1\/m",
+			"Source": "pangaea",
+			"pang_term_id": "44039"
+		},
+
+		{
+			"Quantity": "Concentration",
+			"DimensionFormatted": "L-3",
+			"Ucum": "1\/m3",
+			"Source": "pangaea",
+			"pang_term_id": "43787"
+		},
+
+		{
+			"Quantity": "Specific Volume",
+			"DimensionFormatted": "M-1.L3",
+			"Ucum": "g-1.m3",
+			"Source": "pangaea",
+			"pang_term_id": "43950"
+		}
+	]
+}
