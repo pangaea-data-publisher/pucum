@@ -2,10 +2,18 @@
 A Java-based REST API to convert unis of measurements specified in PANGAEA datasets into UCUM (https://ucum.org) conventions.
 
 ## Usage
+Start the service from command line (works directly from inside Maven):
 ```
-The default port of the service is set to 3838. Use the following url to convert a {unit} into ucum format:
+$ mvn clean compile exec:java
+```
+
+The default port of the service is set to 3838 and listens on localhost only. Use the following url to convert a {unit} into ucum format:
+```
 http://localhost:3838/pucum/v1/api/quantity/{unit}
 ```
+
+To start it from a different host/port, pass `-Dhost=...` and `-Dport=...`.
+
 An example of response returned by the service for the unit 'mg/ml'
 ```
 {

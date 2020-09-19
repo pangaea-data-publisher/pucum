@@ -22,9 +22,6 @@ import org.glassfish.jersey.server.ResourceConfig;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
 
-// comment out by ASD 10-03-2020, There are three main different ways (in a servlet container) to configure Jersey (JAX-RS)
-// for pucum we use With both web.xml and an Application/ResourceConfig class
-// ref https://stackoverflow.com/questions/45625925/what-exactly-is-the-resourceconfig-class-in-jersey-2
 @ApplicationPath("/v1")
 public class PanUcumApp extends ResourceConfig {
 	public static final String PROPERTIES_FILE = "config.properties";
