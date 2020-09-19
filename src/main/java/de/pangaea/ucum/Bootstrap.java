@@ -1,9 +1,10 @@
 package de.pangaea.ucum;
 
+import java.net.InetSocketAddress;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.eclipse.jetty.server.Server;
-import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.glassfish.jersey.servlet.ServletContainer;
@@ -23,13 +24,8 @@ public final class Bootstrap {
     final int port = Integer.parseInt(System.getProperty("port", "3838"));
     
     logger.info("Starting PUCUM on {}:{}...", host, port);
-    final Server server = new Server();
-    
-    final ServerConnector connector = new ServerConnector(server);
-    connector.setHost(host);
-    connector.setPort(port);
-    server.addConnector(connector);
-    
+    final Server server = new Server(InetSocketAddress.createUnresolved(host, port));
+
     final ServletContextHandler ctx = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);    
     ctx.setContextPath("/pucum");
     server.setHandler(ctx);
@@ -43,7 +39,7 @@ public final class Bootstrap {
       server.join();
     } finally {
       server.destroy();
-      logger.info("Server shutdown.");
+      logger.info("PUCUM server was shutdown.");
     }
   }
   
