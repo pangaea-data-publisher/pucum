@@ -28,7 +28,7 @@ public final class Bootstrap {
     logger.info("Starting PUCUM on http://{}:{}{}...", host, port, contextPath);
     final Server server = new Server(InetSocketAddress.createUnresolved(host, port));
 
-    final ServletContextHandler ctx = new ServletContextHandler(ServletContextHandler.NO_SESSIONS);    
+    final ServletContextHandler ctx = new ServletContextHandler(ServletContextHandler.NO_SECURITY | ServletContextHandler.NO_SESSIONS);    
     ctx.setContextPath(contextPath);
     server.setHandler(ctx);
     
