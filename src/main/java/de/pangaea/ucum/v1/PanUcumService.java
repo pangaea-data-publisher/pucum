@@ -2,6 +2,7 @@ package de.pangaea.ucum.v1;
 
 import java.lang.invoke.MethodHandles;
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,6 +11,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
@@ -47,6 +49,8 @@ import de.pangaea.ucum.v1.model.PanQuantity;
 @Singleton
 public class PanUcumService {
   private static final Logger logger = LogManager.getLogger(MethodHandles.lookup().lookupClass());
+  
+  private static final DecimalFormatSymbols ROOT_DECIMAL_FORMAT = new DecimalFormatSymbols(Locale.ROOT);
   
   private final UcumEssenceService ucumInst;
   private final UcumModel model;
@@ -260,8 +264,7 @@ public class PanUcumService {
 		try {
 			// checking valid float using parseInt() method
 			float f = Float.parseFloat(decimal);
-			NumberFormat formatter = new DecimalFormat();
-			formatter = new DecimalFormat("0.#E0");
+			final NumberFormat formatter = new DecimalFormat("0.#E0", ROOT_DECIMAL_FORMAT);
 			String exp = formatter.format(f);
 			if (exp.startsWith("1E")) {
 				n = 10 + "*" + exp.substring(exp.lastIndexOf("E") + 1);
