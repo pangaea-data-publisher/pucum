@@ -22,7 +22,7 @@ public final class Bootstrap {
   
   public static void main(String[] args) throws Exception {
     final String host = System.getProperty("host", "127.0.0.1");
-    final int port = Integer.parseInt(System.getProperty("port", "8384"));
+    final int port = Integer.getInteger("port", 8384);
     final String contextPath = System.getProperty("contextPath", "/");
     
     logger.info("Starting PUCUM on http://{}:{}{}...", host, port, contextPath);
