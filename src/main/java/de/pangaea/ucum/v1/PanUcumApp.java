@@ -12,7 +12,6 @@ import java.util.Properties;
 
 import javax.ws.rs.ApplicationPath;
 
-import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.fhir.ucum.UcumEssenceService;
@@ -72,8 +71,7 @@ public class PanUcumApp extends ResourceConfig {
 
 		// read qudt json file
 		try (InputStream in = quantityFile.openStream()) {
-			String jsonString = IOUtils.toString(in, StandardCharsets.UTF_8);
-			jsonContext = JsonPath.parse(jsonString);
+			jsonContext = JsonPath.parse(in);
 		}
 		
     try (InputStream in = ucumEssenceFile.openStream()) {
@@ -82,7 +80,8 @@ public class PanUcumApp extends ResourceConfig {
     }
     
     // start the app:
-    packages("de.pangaea.ucum.v1;de.pangaea.ucum.v1.model");
+    final String pkg = this.getClass().getPackage().getName();
+    packages(pkg, pkg.concat(".model"));
     register(new PanUcumService(this));
 	}
 
