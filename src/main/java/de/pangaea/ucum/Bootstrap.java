@@ -1,5 +1,6 @@
 package de.pangaea.ucum;
 
+import java.lang.invoke.MethodHandles;
 import java.net.InetSocketAddress;
 
 import org.apache.logging.log4j.LogManager;
@@ -13,7 +14,7 @@ import de.pangaea.ucum.v1.PanUcumApp;
 
 public final class Bootstrap {
   
-  private static final Logger logger = LogManager.getLogger(Bootstrap.class);
+  private static final Logger logger = LogManager.getLogger(MethodHandles.lookup().lookupClass());
   
   private Bootstrap() {
     // no instance

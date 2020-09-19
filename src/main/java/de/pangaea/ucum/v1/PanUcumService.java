@@ -1,5 +1,6 @@
 package de.pangaea.ucum.v1;
 
+import java.lang.invoke.MethodHandles;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.ArrayList;
@@ -45,7 +46,7 @@ import de.pangaea.ucum.v1.model.PanQuantity;
 @Path("v1/api")
 @Singleton
 public class PanUcumService {
-  private static final Logger logger = LogManager.getLogger(PanUcumService.class);
+  private static final Logger logger = LogManager.getLogger(MethodHandles.lookup().lookupClass());
   
   private final UcumEssenceService ucumInst;
   private final UcumModel model;

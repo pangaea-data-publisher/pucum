@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.invoke.MethodHandles;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
@@ -24,9 +25,9 @@ import com.jayway.jsonpath.ReadContext;
 
 @ApplicationPath("/v1")
 public class PanUcumApp extends ResourceConfig {
-	public static final String PROPERTIES_FILE = "config.properties";
-	/* Get the logger for the actual class name to be printed on */
-	private static final Logger logger = LogManager.getLogger(PanUcumApp.class);
+  private static final Logger logger = LogManager.getLogger(MethodHandles.lookup().lookupClass());
+
+  public static final String PROPERTIES_FILE = "config.properties";
   
 	private final Properties properties = new Properties();
 	private final URL ucumEssenceFile;
