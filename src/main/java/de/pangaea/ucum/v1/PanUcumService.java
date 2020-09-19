@@ -260,19 +260,19 @@ public class PanUcumService {
 
 	private String checkDecimalUnit(String decimal) {
 		// convert 0.001 -> 10*-3, 100 -> 10*2
-		String n = null;
 		try {
 			// checking valid float using parseInt() method
 			float f = Float.parseFloat(decimal);
 			final NumberFormat formatter = new DecimalFormat("0.#E0", ROOT_DECIMAL_FORMAT);
-			String exp = formatter.format(f);
+			final String exp = formatter.format(f);
+			String n = null;
 			if (exp.startsWith("1E")) {
 				n = 10 + "*" + exp.substring(exp.lastIndexOf("E") + 1);
 			}
+			return n;
 		} catch (NumberFormatException e) {
 			return null;
 		}
-		return n;
 	}
 
 	private ArrayList<HashMap<String, Object>> getQUDTQuantities(String dimension, String unit, String canonUnit) {
