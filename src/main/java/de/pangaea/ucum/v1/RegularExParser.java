@@ -61,7 +61,7 @@ public class RegularExParser {
 		//System.out.println(this.pattern.toString());
 	}
 
-	protected String runRegExpression(String units) {
+	public String runRegExpression(String units) {
 		// String patternString = "(" + StringUtils.join(pangUcumMappings.keySet(), "|")
 		// + ")";
 		// Pattern pattern = Pattern.compile(patternString);
