@@ -14,6 +14,12 @@ http://localhost:8384/v1/api/quantity/{unit}
 ```
 
 To start it from a different host/port, pass `-Dhost=...` and `-Dport=...`.
+If you want to make it available under a different context path (default is `/`),
+you can add something like `-DcontextPath=/pucum` to startup parameters, so the
+query URL gets:
+```
+http://localhost:8384/pucum/v1/api/quantity/{unit}
+```
 
 An example of response returned by the service for the unit 'mg/ml'
 ```
