@@ -7,9 +7,10 @@ Start the service from command line (works directly from inside Maven):
 $ mvn clean compile exec:java
 ```
 
-The default port of the service is set to 3838 and listens on localhost only. Use the following url to convert a {unit} into ucum format:
+The default port of the service is set to 8384 and listens on localhost (127.0.0.1) only.
+Use the following url to convert a {unit} into ucum format:
 ```
-http://localhost:3838/pucum/v1/api/quantity/{unit}
+http://localhost:8384/v1/api/quantity/{unit}
 ```
 
 To start it from a different host/port, pass `-Dhost=...` and `-Dport=...`.
