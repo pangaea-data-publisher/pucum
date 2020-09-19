@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import javax.inject.Singleton;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -23,7 +24,6 @@ import javax.ws.rs.core.Response.StatusType;
 
 import org.apache.commons.collections4.iterators.PermutationIterator;
 import org.apache.commons.lang.StringUtils;
-//import org.apache.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.fhir.ucum.Converter;
@@ -37,22 +37,29 @@ import org.fhir.ucum.special.Registry;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.core.*;
 import com.jayway.jsonpath.ReadContext;
 
 import de.pangaea.ucum.v1.model.IgnoreLabelMixin;
 import de.pangaea.ucum.v1.model.PanQuantity;
 
 @Path("v1/api")
+@Singleton
 public class PanUcumService {
-	private static final Logger logger = LogManager.getLogger(PanUcumService.class);
-	private static UcumEssenceService ucumInst = PanUcumApp.getUcumSvc();
-	// private HashMap<String, String> pangUcumMappings =
-	// PanUcumApp.getPangUcumMapping();
-	private UcumModel model = PanUcumApp.getUcumModel();
-	private Registry handlers = new Registry();
-	private static RegularExParser regularParser = new RegularExParser();
-	private static ReadContext jsonContext = PanUcumApp.getJsonContext();
+  private static final Logger logger = LogManager.getLogger(PanUcumService.class);
+  
+  private final UcumEssenceService ucumInst;
+  private final UcumModel model;
+  private final Registry handlers;
+  private final RegularExParser regularParser;
+  private final ReadContext jsonContext;
+
+  PanUcumService(PanUcumApp app) {
+    ucumInst = app.getUcumSvc();
+    model = app.getUcumModel();
+    handlers = new Registry();
+    regularParser = new RegularExParser(app);
+    jsonContext = app.getJsonContext();    
+  }
 
 	@GET
 	@Produces(MediaType.TEXT_HTML)
@@ -65,7 +72,7 @@ public class PanUcumService {
 	@GET
 	@Path("validate/{uom : (.+)?}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response validateUCUMUnit(@PathParam("uom") String units) {
+	public Response validateUCUMUnit(@PathParam("uom") String units) throws JsonProcessingException {
 		
 		String backup_of_u = units.trim();
 		String u = units.trim();
@@ -108,7 +115,6 @@ public class PanUcumService {
 			}
 		}
 
-		String json = null;
 		if (ucum != null) {
 			pan.setUcum(ucum);
 			status = Response.Status.OK;
@@ -128,19 +134,15 @@ public class PanUcumService {
 		pan.setStatus_msg(statusMsg);
 		//logger.info(pan.toString());
 		
-		try {
-			json = objectMapper.writeValueAsString(pan);
-		} catch (JsonProcessingException e) {
-			logger.debug("Json writeValueAsString :" + e.getMessage());
-		}
-
+		String json = objectMapper.writeValueAsString(pan);
+		
 		return Response.status(status).entity(json).build();
 	}
 
 	@GET
 	@Path("quantity/{ucum : (.+)?}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response getUcumDefinition(@PathParam("ucum") String units) {
+	public Response getUcumDefinition(@PathParam("ucum") String units) throws UcumException {
 		String backup_of_u = units.trim();
 		String u = units.trim();
 		
@@ -156,11 +158,11 @@ public class PanUcumService {
 		}
 		
 		logger.info("Quantity Desc: "+u);
-		Status status = null;
-		String statusId = null;
+		final Status status;
+		final String statusId;
 		String statusMsg = null;
 		String ucum = null;
-		Term term = null;
+		Term term;
 		String ucumQuantities = null;
 		//ArrayList<String> qudtQuantities = new ArrayList<String>();
 		List<HashMap<String, Object>> qudtQuantities = new ArrayList<HashMap<String, Object>>(); 
@@ -186,36 +188,16 @@ public class PanUcumService {
 		if (ucum != null) {
 			pan.setUcum(ucum);
 			status = Response.Status.OK;
-			try {
-				term = new ExpressionParser(model).parse(ucum);
-			} catch (UcumException e) {
-				logger.debug("UcumService ExpressionParser exception: " + e.getMessage());
-			}
-
+			term = new ExpressionParser(model).parse(ucum);
+		 
 			// describe ucum, i.e., full name, canonicalunits, quantity, dimension
-			try {
-				pan.setFullname(ucumInst.analyse(ucum));
-			} catch (UcumException e) {
-				logger.debug("UcumService Analyse Exception:" + e.getMessage());
-			}
-		//System.out.println("A :"+ucumInst.getModel().getUnit(ucum).getProperty());//<property>
+			pan.setFullname(ucumInst.analyse(ucum));
 			
-
-			
-			String canonUnit = null;
-			try {
-				canonUnit = ucumInst.getCanonicalUnits(ucum);
-			} catch (UcumException e1) {
-				logger.debug("UcumService getCanonicalUnits Exception:" + e1.getMessage());
-			}
+			String canonUnit = ucumInst.getCanonicalUnits(ucum);
 
 			if (canonUnit != null && !canonUnit.isEmpty()) {
 				pan.setCanonicalunit(canonUnit);
-				try {
-					pan.setVerbosecanonicalunit(getVerboseCanonicalUnits(ucum));
-				} catch (UcumException e2) {
-					logger.debug("UcumService getVerboseCanonicalUnits Exception:" + e2.getMessage());
-				}
+				pan.setVerbosecanonicalunit(getVerboseCanonicalUnits(ucum));
 			}
 
 			Unit isUnit = model.getUnit(ucum);
@@ -262,23 +244,13 @@ public class PanUcumService {
 	 * output; }
 	 */
 
-	public String getDimensions(Term term) {
-		String dimension = null;
-		try {
-			dimension = new PanExpressionComposer().compose(new Converter(model, handlers).convert(term), false);
-		} catch (Exception e) {
-			logger.debug("getDimensions Exception:" + e.getMessage());
-		}
-		return dimension;
+	public String getDimensions(Term term) throws UcumException {
+		return new PanExpressionComposer().compose(new Converter(model, handlers).convert(term), false);
 	}
 
 	public String getVerboseCanonicalUnits(String unit) throws UcumException {
-		try {
-			Term term = new ExpressionParser(model).parse(unit);
-			return new PanExpressionComposer().compose(new Converter(model, handlers).convert(term), false, true);
-		} catch (Exception e) {
-			throw new UcumException("Error processing " + unit + ": " + e.getMessage(), e);
-		}
+		Term term = new ExpressionParser(model).parse(unit);
+		return new PanExpressionComposer().compose(new Converter(model, handlers).convert(term), false, true);
 	}
 
 	private String checkDecimalUnit(String decimal) {
@@ -317,14 +289,8 @@ public class PanUcumService {
 				Map<String, String> dimensionMap = (HashMap<String, String>) jsnArr.get(i);
 				String q = dimensionMap.get("Quantity");
 				String u = dimensionMap.get("Ucum");
-				String d = dimensionMap.get("DimensionFormatted");
-				//int term_id = Integer.parseInt(dimensionMap.get("pang_term_id"));
 				String term_id = dimensionMap.get("pang_term_id");
-				//HashMap<String, String> concat = new HashMap<String, String>() {{
-			        //put(term_id, q);
-			    //}};
 				if (u != null) {
-					//mymap.put(u, concat);
 					HashMap<String, Object> temp_quan = new HashMap<>();
 					temp_quan.put("id", Integer.parseInt(term_id));
 					temp_quan.put("name", q);
@@ -332,7 +298,6 @@ public class PanUcumService {
 				}
 			}
 		}
-		//String ucumExists = mymap.get(unit);
 		HashMap<String, Object> ucumExists = mymap.get(unit);
 		if (ucumExists == null) {
 			ucumExists = mymap.get(canonUnit);
@@ -340,14 +305,9 @@ public class PanUcumService {
 		
 		if (ucumExists != null) {
 			logger.debug("Found quantity(s) by DIMENSION-UNIT Combination:" + ucumExists);
-			//ArrayList<HashMap<String, Object>> quantities = new ArrayList<HashMap<String, Object>>();
 			quantitiesFinal.add(ucumExists);
-			//HashMap<String, String> quantities = ucumExists;
-			//quantitiesFinal = ucumExists;
 		} else {
 			// 2. try to find quantities by units only
-			//ArrayList<String> quantitiesByUnt = getQuantitiesByUnit(unit, canonUnit);
-			//HashMap<String, String> quantitiesByUnt = getQuantitiesByUnit(unit, canonUnit);
 			ArrayList<HashMap<String, Object>> quantitiesByUnt = getQuantitiesByUnit(unit, canonUnit);
 			
 			if (quantitiesByUnt.size() > 0) {
@@ -358,12 +318,6 @@ public class PanUcumService {
 				// 3. return all quantities by dimension only
 				if (mymap.isEmpty() == false) {
 					quantitiesFinal = new ArrayList<HashMap<String, Object>>(new HashSet<>(mymap.values()));
-					//Collection<HashMap<Integer, String>> listOfMaps = mymap.values();
-					//HashMap<String, String> tempMap = new HashMap<String, String>();
-					//for (Iterator<HashMap<String, String>> iterator = mymap.values().iterator(); iterator.hasNext();) {
-						//tempMap.putAll(iterator.next());
-					//}
-					//quantitiesFinal = tempMap;
 				}
 			}
 		}

@@ -53,8 +53,8 @@ public class RegularExParser {
 			// pangaea specifics
 			"at", "downward", "upward", "plus", "var.", "spp.", "sp.", "gen.", "cf.", "forma" };
 
-	public RegularExParser() {
-		pangUcumMappings = PanUcumApp.getPangUcumMapping();
+	public RegularExParser(PanUcumApp app) {
+		pangUcumMappings = app.getPangUcumMapping();
 		this.pattern = Pattern.compile(pangUcumMappings.keySet().stream()
 				.sorted(Comparator.comparingInt(String::length).reversed().thenComparing(Comparator.naturalOrder()))
 				.map(Pattern::quote).collect(Collectors.joining("|", "(", ")")));
