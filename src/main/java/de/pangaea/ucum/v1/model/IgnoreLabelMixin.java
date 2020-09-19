@@ -1,7 +1,6 @@
 package de.pangaea.ucum.v1.model;
 
 import java.util.HashMap;
-import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
