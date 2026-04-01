@@ -1,0 +1,13 @@
+[Unit]
+Description=PUCUM Unit Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/pucum
+Restart=always
+ExecStart=/bin/bash
+StandardInputText=source "%h/.profile"; exec mvn -q -l /dev/stdout compile exec:java
+
+[Install]
+WantedBy=default.target

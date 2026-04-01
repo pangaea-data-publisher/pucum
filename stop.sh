@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/bin/daemon -n pucum --stop
+exec systemctl --user stop pucum

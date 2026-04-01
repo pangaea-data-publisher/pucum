@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/bin/daemon -n pucum --restart
+exec systemctl --user restart pucum
